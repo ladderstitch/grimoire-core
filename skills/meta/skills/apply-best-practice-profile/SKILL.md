@@ -24,7 +24,7 @@ Sources: XDG Base Directory Specification (freedesktop.org); Grimoire `docs/prof
 
 From settings:
 ```toml
-# .grimoire/settings.toml
+# grimoire.toml
 profiles = ["clean-architecture", "tdd"]
 ```
 

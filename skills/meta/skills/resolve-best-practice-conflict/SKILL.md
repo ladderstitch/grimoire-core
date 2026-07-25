@@ -30,18 +30,18 @@ Sources: XDG Base Directory Specification (freedesktop.org); RFC 2119 (IETF); VS
 For Mode B, load the active settings files and merge in resolution order:
 
 ```
-<project>/.grimoire/settings.toml   (local — committed, --local)
-  > ~/.config/grimoire/settings.toml (global — per-user, --global)
-    > /etc/grimoire/settings.toml    (system — machine-wide, --system)
+<project>/grimoire.toml   (local — committed, --local)
+  > ~/.config/grimoire/grimoire.toml (global — per-user, --global)
+    > /etc/grimoire/grimoire.toml    (system — machine-wide, --system)
 ```
 
-Within any file, cascade by specificity: `specific entry in [domain.subdomain] > [domain.subdomain] > [domain] > [global]`
+Within any file, cascade by specificity: `[standards.domain.subdomain] > [standards.domain]`
 
-Merge from least to most specific — each level overrides the level below for the same key. `[engineering.architecture]` overrides `[engineering]` which overrides `[global]`.
+Merge from least to most specific — a subdomain section overrides its parent domain section for the same key within one file. `[standards.engineering.architecture]` overrides `[standards.engineering]`. Across files, the separate file-level hierarchy applies: session > project (`grimoire.toml`) > global (`~/.config/grimoire/grimoire.toml`) > system (`/etc/grimoire/grimoire.toml`).
 
 Before scanning each domain:
-- **Resolve active profile** — if user has activated a named profile for this domain, load `[domain.subdomain.profiles.name]` instead of the untagged `[domain.subdomain]` default
-- **Check `lock:`** — if set, ignore all less-specific sections (`## domain`, `## global`) for this subdomain; it's self-contained
+- **Resolve active profile** — if user has activated a named profile for this domain, load `[standards.domain.subdomain.profiles.name]` instead of the untagged `[standards.domain.subdomain]` default
+- **Check `lock:`** — if set, ignore the less-specific parent domain section for this subdomain; it's self-contained
 - **Check `remind:`** — if today ≥ remind date, say "Reminder: review [domain] preferences (set on [date])." Don't block; continue scanning.
 - **Check `expires:`** — if today ≥ expires date, warn: "Preferences for [domain] expired on [date] — review before scanning?"
 - **Check `skip-if:`** — if current file/context matches any skip-if pattern, skip this domain entirely; don't scan or apply
@@ -81,7 +81,7 @@ If multiple conflicts found in Mode B, present all at once, then resolve in sequ
 
 ### Step 3: Show current priorities (if any)
 
-If the relevant domain section already exists in `settings.toml`, display it:
+If the relevant domain section already exists in `grimoire.toml`, display it:
 
 ```
 Current priorities for engineering/architecture:
@@ -114,14 +114,14 @@ If user already stated a preference earlier in the conversation, use it directly
 
 ---
 
-### Step 5: Update settings.toml
+### Step 5: Update grimoire.toml
 
 **Duplicate-write check:** Before writing the resolution, check if the exact same domain+practice pair already has a pinned preference. If yes, show the existing pin and confirm: 'This conflict was already resolved: [existing-pin]. Overwrite with new decision? [y/n]'. Do not silently re-pin.
 
-Write the priority using grimoire config set, or directly into the correct domain section. Default to --local (`.grimoire/settings.toml`). Ask if user wants --global (`~/.config/grimoire/settings.toml`) instead.
+Write the priority using grimoire config set, or directly into the correct domain section. Default to --local (`grimoire.toml`). Ask if user wants --global (`~/.config/grimoire/grimoire.toml`) instead.
 
 ```toml
-[engineering.architecture]
+[standards.engineering.architecture]
 practices = [
   "SOLID principles: production code",  # index 0 = higher priority; context qualifier after ':'
   "KISS: prototypes, scripts"           # index 1 = lower priority
@@ -139,13 +139,13 @@ Rules:
 - `ask-before` — array of skill names AI must confirm before applying. Use for high-stakes skills (security, DB migrations, destructive operations).
 - `expires` — ISO date string. After this date AI warns before applying. Use for temporary overrides.
 - `remind` — ISO date string. Soft nudge on/after date; doesn't block.
-- `shared = true` — commit `settings.toml` to repo as team standard.
-- `lock = true` — less-specific sections (`[domain]`, `[global]`) do not contribute to this section.
+- `shared = true` — commit `grimoire.toml` to repo as team standard.
+- `lock = true` — the less-specific parent domain section does not contribute to this section.
 - `note` — string. AI reads when applying domain skills. Cite when user asks why.
 - `require` — array. Skills that MUST apply unconditionally. Win over all conflict resolution. Flag if a skill appears in both `require` and `disabled` — contradiction.
 - `author` — string. Who set this preference. Cite when user asks "why do we prefer X?" Include in Step 6 if present.
 - `skip-if` — array of file/context patterns. Skip entire domain when matched.
-- `[domain.profiles.name]` — named profile variant. Inactive until user activates. On activation replaces the untagged default for that domain. Ask whether to create as default or named profile when writing.
+- `[standards.domain.subdomain.profiles.name]` — named profile variant. Inactive until user activates. On activation replaces the untagged default for that domain. Ask whether to create as default or named profile when writing.
 - If the domain section already exists, merge conflicting skills into `practices` at the correct index — don't replace other keys.
 
 ---
@@ -155,9 +155,9 @@ Rules:
 Show the updated domain section and the file path:
 
 ```
-Updated: .grimoire/settings.toml
+Updated: grimoire.toml
 
-[engineering.architecture]
+[standards.engineering.architecture]
 practices = [
   "SOLID principles: production code",
   "KISS: prototypes, scripts"
@@ -195,7 +195,7 @@ Scanned 12 skills across 4 domains. Found 3 conflicts:
   ✅ engineering/testing       → TDD > test-after (resolved above)
   ⚠️  engineering/development  → YAGNI vs DRY — 1 conflict found, skipped (add to queue?)
 
-Updated: .grimoire/settings.toml
+Updated: grimoire.toml
 ```
 
 ## When NOT to Use
@@ -208,6 +208,6 @@ Updated: .grimoire/settings.toml
 
 **Over-resolving**: not every pair of skills that sounds related actually conflicts. Load the SKILL.md files and identify a specific contradiction before treating it as a conflict.
 
-**Global-scoping everything**: default to project-level resolution (`settings.toml`). Only write to `~/.config/grimoire/settings.toml` when the user explicitly wants the preference across all projects.
+**Global-scoping everything**: default to project-level resolution (`grimoire.toml`). Only write to `~/.config/grimoire/grimoire.toml` when the user explicitly wants the preference across all projects.
 
 **Forgetting context qualifiers**: "SOLID wins" as a blanket rule overrides KISS even in script/prototype contexts where KISS would be correct. Always ask whether the priority is conditional.

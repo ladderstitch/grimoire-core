@@ -131,7 +131,7 @@ Confirm: `✓ Written to .grimoire/profiles/my-team.toml`
   - draft: save with `status: draft`, user can fix later via revise-best-practice-skill
 
 ```
-Activate now?     profiles = ["my-team"] in .grimoire/settings.toml
+Activate now?     profiles = ["my-team"] in grimoire.toml
 Validate first?   /review-best-practice-profile my-team
 Share publicly?   /share-best-practice-profile my-team
 ```

@@ -8,7 +8,7 @@ related: [apply-best-practice-driven-development, review-best-practice-fit, pin-
 
 # Check Best Practice Compliance
 
-Run a compliance check against any artifact using the resolved effective preferences from settings.toml. Outputs LSP-compatible JSON (machine-readable, editor-consumable) and an HTML coverage report (human-readable).
+Run a compliance check against any artifact using the resolved effective preferences from grimoire.toml. Outputs LSP-compatible JSON (machine-readable, editor-consumable) and an HTML coverage report (human-readable).
 
 ## Why This Is Best Practice
 
@@ -67,7 +67,7 @@ class LegacyAdapter:  ...  # intentional god class — refactor blocked by contr
 
 **Configuring suppressions:** Findings can be suppressed two ways:
 1. Inline annotation: add `# grimoire-ignore: [practice]/[criterion]` on the line before the violation
-2. Settings entry: add the practice to the `disabled` array in `.grimoire/settings.toml` for the relevant domain
+2. Settings entry: add the practice to the `disabled` array in `grimoire.toml` for the relevant domain
 
 Suppressed findings always appear in JSON output with `"status": "suppressed"` — they are never silently dropped.
 
@@ -86,7 +86,7 @@ LSP-compatible schema — consumable by editors, CI pipelines, LSP servers, dash
   "mode": "full",
   "scope": "src/contracts/VendorAgreement.md",
   "spec": {
-    "sources": [".grimoire/settings.toml", "~/.config/grimoire/settings.toml"],
+    "sources": ["grimoire.toml", "~/.config/grimoire/grimoire.toml"],
     "resolved_from": "project-shared + global"
   },
   "result": "fail",
@@ -207,4 +207,4 @@ Fix with:
 ## When NOT to Use
 
 - **For one-time exploration** — use `review-best-practice-fit` to discover what practices apply; use this when you know your spec and want to verify alignment
-- **When settings.toml is empty** — set preferences first; this checks against your stated spec, not general best practices
+- **When grimoire.toml is empty** — set preferences first; this checks against your stated spec, not general best practices

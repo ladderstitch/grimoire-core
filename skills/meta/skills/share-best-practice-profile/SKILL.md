@@ -68,7 +68,7 @@ curl -fsSL https://raw.githubusercontent.com/<user>/grimoire-profile-my-team/mai
 ## Activate
 
 \`\`\`toml
-# .grimoire/settings.toml
+# grimoire.toml
 profiles = ["my-team"]
 \`\`\`
 
@@ -113,7 +113,7 @@ Others install with:
     -o ~/.grimoire/profiles/my-team.toml
 
 Then activate:
-  profiles = ["my-team"]   # in .grimoire/settings.toml
+  profiles = ["my-team"]   # in grimoire.toml
 ```
 
 **Install command:** Include the exact version or commit in the install command so recipients get the exact profile reviewed:

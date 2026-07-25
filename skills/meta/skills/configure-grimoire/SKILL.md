@@ -1,13 +1,13 @@
 ---
 name: configure-grimoire
-description: Use when the user wants to view, edit, remove, or validate their grimoire settings — including reading current preferences, changing or deleting a setting, switching a named profile, or checking settings.toml for contradictions and expired entries.
+description: Use when the user wants to view, edit, remove, or validate their grimoire settings — including reading current preferences, changing or deleting a setting, switching a named profile, or checking grimoire.toml for contradictions and expired entries.
 source: Settings management patterns (VS Code settings UI, Git config get/set/unset); XDG Base Directory Specification (freedesktop.org)
 tags: [settings, configuration, preferences, profile, toml, view, edit, validate]
 ---
 
 # Configure Grimoire
 
-Read, update, or validate `settings.toml` — the single source of truth for all grimoire preferences and configuration.
+Read, update, or validate `grimoire.toml` — the single source of truth for all grimoire preferences and configuration.
 
 ## Why This Is Best Practice
 
@@ -47,12 +47,12 @@ Sources: XDG Base Directory Specification (freedesktop.org); VS Code settings do
 **Fallback (grimoire not installed):** Resolve the active settings by merging in order (highest wins):
 
 ```
-<project>/.grimoire/settings.toml   (local — committed, --local)
-  > ~/.config/grimoire/settings.toml (global — XDG primary, --global)
-    > /etc/grimoire/settings.toml    (system — machine-wide, --system)
+<project>/grimoire.toml   (local — committed, --local)
+  > ~/.config/grimoire/grimoire.toml (global — XDG primary, --global)
+    > /etc/grimoire/grimoire.toml    (system — machine-wide, --system)
 ```
 
-Within any file, cascade by specificity: `[domain.subdomain] > [domain] > [global]`
+Within any file, cascade by specificity: `[standards.domain.subdomain] > [standards.domain]` — a subdomain section overrides its parent domain section for the same key; unset keys inherit from the domain level.
 
 ---
 
@@ -62,7 +62,7 @@ Display the merged effective settings for the requested domain (or all domains):
 
 ```
 Effective settings for engineering/architecture:
-  Source: .grimoire/settings.toml (project)
+  Source: grimoire.toml (project)
 
   practices: ["SOLID principles: production code", "KISS: scripts, prototypes"]
   fallback:  "ask"
@@ -82,18 +82,18 @@ Show which file each key came from if multiple files contribute.
 
 **TOML parse guard:** If the target settings file exists but cannot be parsed as valid TOML (syntax error), stop immediately. Output: 'Settings file at [path] has a syntax error — cannot edit safely. Fix the TOML syntax first (e.g., unclosed quote, missing `=`, invalid array). Inspect with: `cat [path]`.' Do not overwrite a malformed file.
 
-Parse the requested change from user input. Show what will change, then ask which file to write to (platform-aware select — see Steps intro). Options: "This project (local) → .grimoire/settings.toml (Recommended)", "All projects (global) → ~/.config/grimoire/settings.toml", "System (all users) → /etc/grimoire/settings.toml". Other platforms, numbered list:
+Parse the requested change from user input. Show what will change, then ask which file to write to (platform-aware select — see Steps intro). Options: "This project (local) → grimoire.toml (Recommended)", "All projects (global) → ~/.config/grimoire/grimoire.toml", "System (all users) → /etc/grimoire/grimoire.toml". Other platforms, numbered list:
   ```
   Change:
 
-    [engineering.architecture]
+    [standards.engineering.architecture]
     - fallback = "ask"
     + fallback = "both"
 
   Write to:
-    [1] This project (local)  → .grimoire/settings.toml            (committed to repo)
-    [2] All projects (global) → ~/.config/grimoire/settings.toml
-    [3] System (all users)    → /etc/grimoire/settings.toml
+    [1] This project (local)  → grimoire.toml            (committed to repo)
+    [2] All projects (global) → ~/.config/grimoire/grimoire.toml
+    [3] System (all users)    → /etc/grimoire/grimoire.toml
   ```
 
 Note: Prefer `grimoire config set <key> <value>` for single-key changes. For list-type keys (profiles, practices, disabled), use `grimoire config add/remove` — these are idempotent and won't create duplicates:
@@ -106,7 +106,7 @@ grimoire config remove standards.engineering.practices "Google Engineering Pract
 # With -g / --global to write to global settings
 ```
 
-**Higher-precedence warning:** Before writing to a settings file, check if a higher-precedence layer already sets this key. Precedence order (highest to lowest): session pins → .grimoire/settings.toml (local) → ~/.config/grimoire/settings.toml (global) → /etc/grimoire/settings.toml (system). If a higher-precedence layer already defines this key, the edit to the lower layer will have no effect. Warn: 'Note: [higher-layer] already sets [key]=[value]. Your change to [lower-layer] will be overridden until you remove or update the higher-precedence setting.'
+**Higher-precedence warning:** Before writing to a settings file, check if a higher-precedence layer already sets this key. Precedence order (highest to lowest): session pins → grimoire.toml (local) → ~/.config/grimoire/grimoire.toml (global) → /etc/grimoire/grimoire.toml (system). If a higher-precedence layer already defines this key, the edit to the lower layer will have no effect. Warn: 'Note: [higher-layer] already sets [key]=[value]. Your change to [lower-layer] will be overridden until you remove or update the higher-precedence setting.'
 
 After file selection, confirm and write. Never write invalid TOML.
 
@@ -116,22 +116,22 @@ After file selection, confirm and write. Never write invalid TOML.
 
 ### Step 3c: Remove
 
-Ask which file to remove from (platform-aware select — see Steps intro). Options: "This project (local) → .grimoire/settings.toml (Recommended)", "All projects (global) → ~/.config/grimoire/settings.toml", "System (all users) → /etc/grimoire/settings.toml". Other platforms:
+Ask which file to remove from (platform-aware select — see Steps intro). Options: "This project (local) → grimoire.toml (Recommended)", "All projects (global) → ~/.config/grimoire/grimoire.toml", "System (all users) → /etc/grimoire/grimoire.toml". Other platforms:
   ```
   Remove from:
-    [1] This project (local)  → .grimoire/settings.toml            (committed to repo)
-    [2] All projects (global) → ~/.config/grimoire/settings.toml
-    [3] System (all users)    → /etc/grimoire/settings.toml
+    [1] This project (local)  → grimoire.toml            (committed to repo)
+    [2] All projects (global) → ~/.config/grimoire/grimoire.toml
+    [3] System (all users)    → /etc/grimoire/grimoire.toml
   ```
 
 After file selection, show what will be removed and ask key vs section (platform-aware select — see Steps intro). Options: "Remove this key only (Recommended)", "Remove the entire section", "Cancel". Other platforms:
   ```
-  Remove from .grimoire/settings.toml:
+  Remove from grimoire.toml:
 
-    [engineering.architecture]
+    [standards.engineering.architecture]
     expires = "2026-09-01"   ← remove this key
 
-  Or remove the entire [engineering.architecture] section? [key / section / cancel]
+  Or remove the entire [standards.engineering.architecture] section? [key / section / cancel]
   ```
 
 If removing from the project file would expose a global default the user didn't intend, show the effective value after removal before confirming.
@@ -157,7 +157,7 @@ Show the effective list after the operation using `grimoire config get <key>`.
 
 ### Step 3e: Switch profile
 
-Store the active profile for a domain in `settings.toml` (project) or global settings — use grimoire config set:
+Store the active profile for a domain in `grimoire.toml` (project) or global settings — use grimoire config set:
 
 ```bash
 grimoire config set standards.engineering.architecture.active-profile prototype
@@ -169,7 +169,7 @@ Confirm the switch:
 
 ```
 Switched engineering/architecture to profile: prototype
-Stored in: .grimoire/settings.toml (local, committed) or ~/.config/grimoire/settings.toml (global)
+Stored in: grimoire.toml (local, committed) or ~/.config/grimoire/grimoire.toml (global)
 
 Active practices:
   1. KISS
@@ -190,19 +190,19 @@ Check the merged settings for issues:
 | `expires` date < today | Preference has expired — flag for review or removal |
 | `remind` date ≤ today | Reminder due — surface to user |
 | Unknown key names | Typo in key name — flag |
-| `[domain.profiles.X]` referenced but no matching profile | Profile defined but never activated |
+| `[standards.domain.subdomain.profiles.X]` referenced but no matching profile | Profile defined but never activated |
 
 Output:
 
 ```
 Validating settings files...
 
-  .grimoire/settings.toml (local)
+  grimoire.toml (local)
     ⚠️  engineering/architecture: expires "2026-09-01" is past — still apply? (platform-aware confirm, options "Keep"/"Remove" — see Steps intro)
     ❌  engineering/testing: "apply-tdd" is in both require and disabled — contradiction
     ✅  engineering/development: OK
 
-  ~/.config/grimoire/settings.toml (global)
+  ~/.config/grimoire/grimoire.toml (global)
     ✅  global: OK
 
 1 error, 1 warning across 3 files. Fix errors before conflicts can be resolved correctly.
@@ -265,7 +265,7 @@ Alternatively, set `GRIMOIRE_PROJECT_DIR=/absolute/path/to/project` in the assis
 
 ### Step 3i: Check provider config
 
-Configure which AI provider `grimoire check` uses in independent mode. Add to `.grimoire/settings.toml`:
+Configure which AI provider `grimoire check` uses in independent mode. Add to `grimoire.toml`:
 
 ```toml
 [core.check-provider]
@@ -290,7 +290,7 @@ Resolution order: `--via` flag → local CLIs (claude/gemini/codex/copilot) → 
 
 ## Common Mistakes
 
-**Editing the wrong file**: always confirm which file (local, global, system) before writing. A setting in `.grimoire/settings.toml` commits to repo (--local). Personal settings belong in --global.
+**Editing the wrong file**: always confirm which file (local, global, system) before writing. A setting in `grimoire.toml` commits to repo (--local). Personal settings belong in --global.
 
 **Removing without checking cascade**: deleting a key from the project file may expose a global default the user didn't intend. Show the effective value after removal before confirming.
 

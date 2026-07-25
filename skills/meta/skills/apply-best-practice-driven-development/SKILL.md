@@ -8,7 +8,7 @@ related: [check-best-practice-compliance, pin-best-practice-preference, apply-be
 
 # Apply Best Practice Driven Development
 
-Systematically align any project or artifact to its stated best practice preferences using a Red-Green-Refactor cycle driven by `settings.toml` and profiles. Works for codebases, legal documents, business plans, training programs, marketing campaigns — any work product with declared practices.
+Systematically align any project or artifact to its stated best practice preferences using a Red-Green-Refactor cycle driven by `grimoire.toml` and profiles. Works for codebases, legal documents, business plans, training programs, marketing campaigns — any work product with declared practices.
 
 ## Why This Is Best Practice
 
@@ -31,15 +31,15 @@ If CLI only (no MCP): run `grimoire context --json` or `grimoire settings` and r
 ```
 session pins
   ↓ overrides
-.grimoire/settings.toml          (local — committed, --local)
+grimoire.toml          (local — committed, --local)
   ↓ overrides
-~/.config/grimoire/settings.toml (global — per-user, --global)
+~/.config/grimoire/grimoire.toml (global — per-user, --global)
   ↓ overrides
-/etc/grimoire/settings.toml      (system — machine-wide, --system)
+/etc/grimoire/grimoire.toml      (system — machine-wide, --system)
 ```
 
 - Expand `profiles = [...]` to skill lists (tag query or file)
-- Apply domain overrides (`[engineering.architecture]` overrides `[engineering]`)
+- Apply domain overrides (`[standards.engineering.architecture]` overrides `[standards.engineering]`)
 - Apply `disabled` entries — remove those skills from the spec
 - Drop any practice overridden by a higher-precedence layer
 
@@ -54,16 +54,16 @@ Display the effective spec before running — the user must see what they're ali
 ```
 Effective spec — 5 practices
 
-  apply-solid-principles       [profile: oop → .grimoire/settings.toml]
-  apply-domain-driven-design   [profile: oop → .grimoire/settings.toml]
-  apply-kiss-principle         [engineering.architecture → global]
-  apply-pyramid-principle      [writing → .grimoire/settings.toml]
-  audit-gdpr-compliance        [law → global]
-  ⊘ apply-law-of-demeter       [disabled by .grimoire/settings.toml]
+  apply-solid-principles       [profile: oop → grimoire.toml]
+  apply-domain-driven-design   [profile: oop → grimoire.toml]
+  apply-kiss-principle         [standards.engineering.architecture → global]
+  apply-pyramid-principle      [writing → grimoire.toml]
+  audit-gdpr-compliance        [standards.law → global]
+  ⊘ apply-law-of-demeter       [disabled by grimoire.toml]
 ```
 
 If settings are empty, stop and direct user to `pin-best-practice-preference` or `apply-best-practice-profile` first. Otherwise, proceed automatically — user invoked BPDD explicitly, no confirmation needed.
-The source tags in brackets (`[profile: oop → .grimoire/settings.toml]`) come from `settings_sources` in `grimoire_context` output — read them directly, do not infer.
+The source tags in brackets (`[profile: oop → grimoire.toml]`) come from `settings_sources` in `grimoire_context` output — read them directly, do not infer.
 
 ---
 
@@ -154,7 +154,7 @@ If no changes were made during this BPDD cycle (all criteria passed), skip the c
   ✓ audit-gdpr-compliance       (was already passing)
 
 Threshold: 92% ≥ 80% ✓
-Artifact now aligns with .grimoire/settings.toml
+Artifact now aligns with grimoire.toml
 
 Ongoing:
   grimoire watch              # re-checks on every file save (local dev)
@@ -173,4 +173,4 @@ Ongoing:
 ## When NOT to Use
 
 - **For one-time review** — use `review-best-practice-fit` instead; BPDD is for systematic, committed alignment
-- **When settings.toml is empty** — set preferences first with `pin-best-practice-preference` or `apply-best-practice-profile`
+- **When grimoire.toml is empty** — set preferences first with `pin-best-practice-preference` or `apply-best-practice-profile`

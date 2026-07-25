@@ -36,12 +36,9 @@ UX guidelines, Google Search intent classification research
 
 Resolution order — first match wins:
 1. Session memory — pinned this session only; not written to disk (highest precedence)
-2. `<project-root>/.grimoire/settings.local.toml` — project personal TOML (read `[domain.subdomain].practices[0]`)
-3. `<project-root>/.grimoire/settings.toml` — project shared TOML (same key)
-4. `<project-root>/.grimoire/preferences.md` — project legacy markdown
-5. `~/.config/grimoire/settings.toml` — global TOML settings
-6. `~/.config/grimoire/preferences.md` OR `~/.grimoire/preferences.md` — global legacy markdown
-7. `CLAUDE.md` `## Grimoire Preferences` section — legacy fallback
+2. `<project-root>/grimoire.toml` — project config, committed to repo (read `[standards.domain.subdomain].practices[0]`)
+3. `~/.config/grimoire/grimoire.toml` — global config, this user (same key)
+4. `/etc/grimoire/grimoire.toml` — system config, all users on this machine (same key)
 
 For the relevant domain, check if a practice is already pinned:
 - **Pinned match (file)** → apply the pinned practice directly; skip scoring entirely. No further action needed — already persisted.

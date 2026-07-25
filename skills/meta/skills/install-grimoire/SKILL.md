@@ -220,9 +220,8 @@ Grimoire health check
     ⬜  gemini:  (not detected — skipped)
 
   Config
-    ✅  project personal (.grimoire/settings.local.toml) — present, valid TOML
-    ⬜  project shared (.grimoire/settings.toml) — not found
-    ⬜  global (~/.config/grimoire/settings.toml) — not found
+    ✅  project (grimoire.toml) — present, valid TOML
+    ⬜  global (~/.config/grimoire/grimoire.toml) — not found
 
   Summary: 1 warning.
 ```
@@ -234,7 +233,7 @@ For `init`:
 ```
 ✅ Grimoire initialized.
 
-  Created: /path/to/project/.grimoire/settings.toml
+  Created: /path/to/project/grimoire.toml
   Profile: engineering (auto-detected)
 
   Next steps:
