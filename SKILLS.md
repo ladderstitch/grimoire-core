@@ -1523,7 +1523,7 @@
 
 ---
 
-## Psychology (26) <a name="psychology"></a>
+## Psychology (27) <a name="psychology"></a>
 
 ### behavioral
 
@@ -1553,6 +1553,7 @@
 
 ### positive
 
+- [`apply-confucian-life-stage-framework`](./skills/psychology/positive/skills/apply-confucian-life-stage-framework/) — Use when the user wants to reflect on where they stand developmentally by age or decade, self-assess life-stage progress, or plan what comes next as they age
 - [`apply-gratitude-journaling`](./skills/psychology/positive/skills/apply-gratitude-journaling/) — Use when establishing a daily or weekly practice to improve wellbeing, reduce depression symptoms, or shift habitual negative attentional bias — by writing specific, concrete things you are grateful for using the evidence-based format that produces lasting mood effects.
 - [`apply-growth-mindset-techniques`](./skills/psychology/positive/skills/apply-growth-mindset-techniques/) — Use when someone is avoiding challenges, giving up after setbacks, or attributing ability rather than effort and strategy to performance outcomes
 - [`apply-self-compassion-practice`](./skills/psychology/positive/skills/apply-self-compassion-practice/) — Use when helping someone reduce self-criticism, shame, or harsh inner judgment — particularly when perfectionism, failure responses, or chronic self-blame are interfering with wellbeing, resilience, or motivation.
