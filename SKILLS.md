@@ -107,7 +107,7 @@
 
 ---
 
-## Business (171) <a name="business"></a>
+## Business (173) <a name="business"></a>
 
 ### entrepreneurship
 
@@ -146,6 +146,7 @@
 - [`apply-high-performer-retention`](./skills/business/leadership/skills/apply-high-performer-retention/) — Use when a manager wants to proactively retain top-performing direct reports — because high performers have the most options to leave and require active, differentiated management attention to stay engaged and challenged.
 - [`apply-intrinsic-motivation`](./skills/business/leadership/skills/apply-intrinsic-motivation/) — Use when a manager wants to design work, roles, or conditions that sustain employee motivation over the long term — by understanding what drives internal engagement rather than relying primarily on compensation, perks, or external incentives.
 - [`apply-merit-selection`](./skills/business/leadership/skills/apply-merit-selection/) — Use when making any talent selection, promotion, or recommendation decision — to test your evaluation against the reversed-relationship check, because evaluator relationship bias systematically corrupts talent decisions even in well-intentioned evaluators
+- [`apply-opportunity-and-sponsorship-strategy`](./skills/business/leadership/skills/apply-opportunity-and-sponsorship-strategy/) — Use when someone wants to advance their career or capture opportunities by staying alert to situational openings and deliberately cultivating sponsor relationships
 - [`apply-situational-leadership`](./skills/business/leadership/skills/apply-situational-leadership/) — Use when a manager needs to determine how much direction vs. support to give a specific direct report on a specific task — because the same management approach applied uniformly produces over-management of high performers and under-support of developing employees.
 - [`apply-trust-building`](./skills/business/leadership/skills/apply-trust-building/) — Use when a manager is new to a team, has experienced a trust breach, or wants to deliberately strengthen the trust foundation of their management relationships — because trust determines whether employees share real problems, follow direction with confidence, and engage fully.
 - [`apply-upward-influence`](./skills/business/leadership/skills/apply-upward-influence/) — Use when a manager needs to build an effective working relationship with their own manager, secure resources or decisions for their team, or influence organizational priorities without formal authority over the outcome.
@@ -248,6 +249,7 @@
 - [`apply-legitimacy-control`](./skills/business/strategy/skills/apply-legitimacy-control/) — Use when seeking durable market authority without direct confrontation — to control or heavily influence the existing source of legitimacy in a market so that competitors must conform to your terms while appearing to follow a neutral authority
 - [`apply-market-creation`](./skills/business/strategy/skills/apply-market-creation/) — Use when no established market exists for what you are building — to invent the category, define the buying criteria, and establish yourself as the authority before competing for market share
 - [`apply-mece`](./skills/business/strategy/skills/apply-mece/) — Use when structuring a problem, organizing findings, or building an analysis where you need to ensure no gaps and no overlaps in your categories.
+- [`apply-mission-primacy-principle`](./skills/business/strategy/skills/apply-mission-primacy-principle/) — Use when a tempting but off-mission opportunity appears mid-execution and pursuing it would cost time or focus on the actual primary objective
 - [`apply-morale-timing`](./skills/business/strategy/skills/apply-morale-timing/) — Use when facing an aggressive opening demand, threat, hostile objection, or competitive move — to determine whether to respond immediately or wait out the initial emotional peak before engaging
 - [`apply-nash-equilibrium`](./skills/business/strategy/skills/apply-nash-equilibrium/) — Use when designing a competitive strategy, pricing policy, auction, contract, or negotiation where multiple rational parties make interdependent decisions — to identify stable strategy combinations, predict where unstable strategies will drift, and design rules that make your desired outcome the equilibrium
 - [`apply-non-transactional-giving`](./skills/business/strategy/skills/apply-non-transactional-giving/) — Use when building long-term relationships, networks, or organizational loyalty — to give help, information, introductions, and resources without explicit expectation of return, because non-transactional generosity creates more durable social capital than tracked exchanges
@@ -1523,7 +1525,7 @@
 
 ---
 
-## Psychology (27) <a name="psychology"></a>
+## Psychology (28) <a name="psychology"></a>
 
 ### behavioral
 
@@ -1544,6 +1546,7 @@
 ### cognitive
 
 - [`apply-acceptance-commitment-therapy`](./skills/psychology/cognitive/skills/apply-acceptance-commitment-therapy/) — Use when helping someone reduce psychological suffering caused by rigid avoidance, fusion with unhelpful thoughts, or values-behavior disconnection — particularly for anxiety, depression, chronic pain, or stress.
+- [`apply-clinamen-deviation-technique`](./skills/psychology/cognitive/skills/apply-clinamen-deviation-technique/) — Use when someone is stuck in a deterministic rut and needs a deliberate, controlled deviation to surface a genuinely novel option
 - [`apply-cognitive-reframing`](./skills/psychology/cognitive/skills/apply-cognitive-reframing/) — Use when a person holds distorted, unhelpful, or catastrophic thought patterns that fuel emotional distress, anxiety, or depression
 - [`apply-mental-models-framework`](./skills/psychology/cognitive/skills/apply-mental-models-framework/) — Use when applying mental models (first principles, inversion, second-order thinking, probabilistic thinking) to improve decision-making and avoid cognitive bias
 - [`apply-metacognition-techniques`](./skills/psychology/cognitive/skills/apply-metacognition-techniques/) — Use when applying metacognition techniques — calibration, self-explanation, retrieval scheduling, and monitoring — to improve self-regulated learning and problem-solving
