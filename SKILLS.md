@@ -1,6 +1,6 @@
 # Skills Directory
 
-1069 skills across 27 domains.
+1103 skills across 27 domains.
 
 [Install](./README.md#%EF%B8%8F-install) · [Contribute](./CONTRIBUTING.md) · [Standard](./STANDARD.md)
 
@@ -10,31 +10,31 @@
 
 - [Art (18)](#art)
 - [Automotive (16)](#automotive)
-- [Business (140)](#business)
-- [Cooking (23)](#cooking)
+- [Business (149)](#business)
+- [Cooking (24)](#cooking)
 - [Design (64)](#design)
-- [Education (25)](#education)
-- [Engineering (243)](#engineering)
+- [Education (27)](#education)
+- [Engineering (250)](#engineering)
 - [Environment (17)](#environment)
 - [Fashion (16)](#fashion)
 - [Film (16)](#film)
-- [Finance (45)](#finance)
+- [Finance (47)](#finance)
 - [Health (52)](#health)
 - [Home (16)](#home)
-- [Language (17)](#language)
-- [Law (28)](#law)
+- [Language (18)](#language)
+- [Law (29)](#law)
 - [Marketing (20)](#marketing)
 - [Grimoire (29)](#grimoire)
 - [Music (26)](#music)
 - [Parenting (16)](#parenting)
 - [Pets (16)](#pets)
 - [Photography (27)](#photography)
-- [Productivity (25)](#productivity)
-- [Psychology (26)](#psychology)
-- [Science (46)](#science)
+- [Productivity (26)](#productivity)
+- [Psychology (30)](#psychology)
+- [Science (51)](#science)
 - [Sports (46)](#sports)
 - [Travel (16)](#travel)
-- [Writing (30)](#writing)
+- [Writing (31)](#writing)
 
 ---
 
@@ -107,7 +107,7 @@
 
 ---
 
-## Business (173) <a name="business"></a>
+## Business (182) <a name="business"></a>
 
 ### entrepreneurship
 
@@ -115,6 +115,7 @@
 - [`apply-deep-industry-immersion-research`](./skills/business/entrepreneurship/skills/apply-deep-industry-immersion-research/) — Use when forming an investment thesis in a new or emerging technology trend — committing to extended, multi-year immersion in the industry before evaluating specific deals, rather than assessing opportunities opportunistically as they arrive.
 - [`apply-double-down-portfolio-strategy`](./skills/business/entrepreneurship/skills/apply-double-down-portfolio-strategy/) — Use when managing a portfolio of early-stage investments — reserving significant capital for follow-on investment in the clearest-performing companies rather than spreading the initial investment evenly or holding follow-on capital back proportionally.
 - [`apply-full-lifecycle-investing`](./skills/business/entrepreneurship/skills/apply-full-lifecycle-investing/) — Use when structuring a venture capital firm's investment mandate — building the capability to invest in a portfolio company across its entire lifecycle from seed through pre-IPO and beyond, rather than confining the firm to a single stage, so the strongest companies can be backed continuously without forcing a founder to rebuild investor relationships and re-pitch the business at every new round.
+- [`apply-lean-startup-methodology`](./skills/business/entrepreneurship/skills/apply-lean-startup-methodology/) — Use when a validated problem is ready to move into building — deciding what minimum viable product to build first, what to measure to test whether it actually solves the problem, and whether to pivot or persevere — bridging the gap between problem-validation interviews and post-launch growth experimentation.
 - [`apply-local-market-adaptation-strategy`](./skills/business/entrepreneurship/skills/apply-local-market-adaptation-strategy/) — Use when entering or investing in a new geographic market with an existing successful business model — adapting the model to local consumer behavior, regulatory environment, and competitive dynamics rather than directly porting the original model unchanged.
 - [`apply-market-size-first-screening`](./skills/business/entrepreneurship/skills/apply-market-size-first-screening/) — Use when evaluating an early-stage investment opportunity — screening for a genuinely large addressable market first, before assessing team or product quality, since even excellent execution in a small market caps the achievable outcome, while a large market can produce an outsized result even from imperfect execution.
 - [`apply-moonshot-technology-investing`](./skills/business/entrepreneurship/skills/apply-moonshot-technology-investing/) — Use when evaluating a technically ambitious, high-uncertainty breakthrough technology investment — accepting a much higher individual-investment failure rate than standard venture investing in exchange for the possibility of a genuinely transformative, category-defining outcome most investors wouldn't accept the technical risk to pursue.
@@ -232,6 +233,8 @@
 - [`apply-criticism-intelligence`](./skills/business/strategy/skills/apply-criticism-intelligence/) — Use when your organization receives external criticism, complaints, or negative feedback — to institutionalize collection and learning from adverse signals rather than defending against or suppressing them, because negative feedback is the highest-signal intelligence available about product and policy failures
 - [`apply-dependency-trap`](./skills/business/strategy/skills/apply-dependency-trap/) — Use when customer or partner adoption at scale requires removing upfront barriers — offering genuine value freely so switching costs accumulate naturally, then shifting to monetisation once dependency is established
 - [`apply-deterrence-posture`](./skills/business/strategy/skills/apply-deterrence-posture/) — Use when in a vulnerable position that cannot be immediately strengthened — to project calm confidence and signal credible engagement cost so opponents reconsider attacking while you rebuild actual capability
+- [`apply-diffusion-of-innovations`](./skills/business/strategy/skills/apply-diffusion-of-innovations/) — Use when predicting or accelerating how a new product, technology, policy, or behavior will spread through a population — classifying the target population into adopter categories and diagnosing an innovation's relative advantage, compatibility, complexity, trialability, and observability, to identify what's actually slowing adoption rather than assuming awareness or price alone explain it.
+- [`apply-digital-divide-diagnostic`](./skills/business/strategy/skills/apply-digital-divide-diagnostic/) — Use when a target population isn't adopting a digital product, service, or program and the cause isn't obvious — diagnose which of four independent access barriers (motivational, physical/material, skills, or usage) is actually blocking adoption before designing an intervention, rather than defaulting to "we need more devices" or "we need more marketing."
 - [`apply-dormant-asset-revival`](./skills/business/strategy/skills/apply-dormant-asset-revival/) — Use when a dormant or discredited asset — brand, regulatory licence, platform, or abandoned standard — retains residual value that can serve as a vehicle for something new, enabling access or legitimacy faster than building from scratch
 - [`apply-early-intervention`](./skills/business/strategy/skills/apply-early-intervention/) — Use when you detect early warning signals — technical debt accumulating, customer relationship cooling, team friction forming, process degrading — to intervene while the problem is still small and cheap, because intervention cost increases nonlinearly with delay
 - [`apply-economy-of-force`](./skills/business/strategy/skills/apply-economy-of-force/) — Use when planning a competitive campaign to ensure the means of winning do not destroy what you are competing for — avoiding pyrrhic victories, preserving resources for follow-on engagements, and using proportionate force at each stage
@@ -240,7 +243,10 @@
 - [`apply-five-factors-assessment`](./skills/business/strategy/skills/apply-five-factors-assessment/) — Use when preparing for any competitive engagement — product launch, market entry, negotiation, or campaign — to audit your position across the five strategic dimensions before committing resources
 - [`apply-force-alignment`](./skills/business/strategy/skills/apply-force-alignment/) — Use when evaluating a strategy or major initiative — to categorize major external forces as tailwinds or headwinds, and systematically prefer strategies that work WITH dominant forces rather than against them
 - [`apply-force-concentration`](./skills/business/strategy/skills/apply-force-concentration/) — Use when outmatched overall but able to choose where to engage — concentrating all available resources on the opponent's weakest or most exposed point while avoiding their strength, maintaining initiative, and remaining formless to prevent counter-concentration
+- [`apply-gilded-retirement`](./skills/business/strategy/skills/apply-gilded-retirement/) — Use when a subordinate or peer has accumulated dangerous concentrated power — a general with personal loyalty of troops, a co-founder with an entrenched board bloc, a division head with an independent power base — and a direct confrontation or purge risks open conflict, defection, or reputational damage; instead make voluntary relinquishment of that power more attractive than keeping it, through wealth, status, and security.
+- [`apply-goodharts-law`](./skills/business/strategy/skills/apply-goodharts-law/) — Use when choosing what to measure for a KPI, OKR, ML training objective, or SLO — or when a metric that once tracked real performance keeps rising while the underlying outcome doesn't — to diagnose or prevent the specific mechanism by which a measure degrades once people optimize directly against it.
 - [`apply-graceful-withdrawal`](./skills/business/strategy/skills/apply-graceful-withdrawal/) — Use when a current position is deteriorating or no longer worth defending — to exit cleanly while preserving key assets, reputation, and relationships for the next engagement
+- [`apply-graduated-entry-point-technique`](./skills/business/strategy/skills/apply-graduated-entry-point-technique/) — Use when an audience isn't ready to engage directly with the actual goal you need them to reach — a lesson, a behavior change, a product adoption — but does have a specific, concrete want of their own; use that existing want, unmodified, as the literal entry point to get them moving, then execute a planned, disclosed transition to the real objective once engagement is secured, rather than trying to motivate them with the deeper goal directly from the start.
 - [`apply-hearts-and-minds`](./skills/business/strategy/skills/apply-hearts-and-minds/) — Use when you have the power to enforce compliance but enforcement without genuine buy-in will fail over time — to win voluntary commitment from a resistant counterpart through repeated demonstration and release, rather than coercion
 - [`apply-indirect-strategy`](./skills/business/strategy/skills/apply-indirect-strategy/) — Use when direct confrontation with a stronger or entrenched opponent would be costly, slow, or unwinnable — to win by undermining their strategy, dependencies, or position rather than attacking their strength directly
 - [`apply-interest-alignment`](./skills/business/strategy/skills/apply-interest-alignment/) — Use when entering a negotiation, sales conversation, or persuasion effort where the other party's stated position may not reflect what they actually need — discover the underlying interest before presenting your proposal
@@ -248,6 +254,7 @@
 - [`apply-key-person-targeting`](./skills/business/strategy/skills/apply-key-person-targeting/) — Use when the competitive outcome is controlled by a single decision-maker, gatekeeper, or linchpin — and engaging the broader organisation is slower and more expensive than influencing the key person directly
 - [`apply-legitimacy-control`](./skills/business/strategy/skills/apply-legitimacy-control/) — Use when seeking durable market authority without direct confrontation — to control or heavily influence the existing source of legitimacy in a market so that competitors must conform to your terms while appearing to follow a neutral authority
 - [`apply-market-creation`](./skills/business/strategy/skills/apply-market-creation/) — Use when no established market exists for what you are building — to invent the category, define the buying criteria, and establish yourself as the authority before competing for market share
+- [`apply-management-by-objectives`](./skills/business/strategy/skills/apply-management-by-objectives/) — Use when cascading organizational objectives down through management layers, replacing task/activity supervision with outcome-based autonomy, structuring a manager-employee objective-setting conversation, or deciding between MBO, OKRs, and KPI-only management.
 - [`apply-mece`](./skills/business/strategy/skills/apply-mece/) — Use when structuring a problem, organizing findings, or building an analysis where you need to ensure no gaps and no overlaps in your categories.
 - [`apply-mission-primacy-principle`](./skills/business/strategy/skills/apply-mission-primacy-principle/) — Use when a tempting but off-mission opportunity appears mid-execution and pursuing it would cost time or focus on the actual primary objective
 - [`apply-morale-timing`](./skills/business/strategy/skills/apply-morale-timing/) — Use when facing an aggressive opening demand, threat, hostile objection, or competitive move — to determine whether to respond immediately or wait out the initial emotional peak before engaging
@@ -259,6 +266,7 @@
 - [`apply-power-mapping`](./skills/business/strategy/skills/apply-power-mapping/) — Use when engaging with any organization — customer, partner, regulator, acquirer, or internal — to map actual decision authority and influence separately from the formal org chart, because nominal titles and actual power routinely diverge
 - [`apply-premortem`](./skills/business/strategy/skills/apply-premortem/) — Use when a plan is finalized but not yet launched, to surface failure modes the team hasn't acknowledged before commitment is locked in.
 - [`apply-probe-strategy`](./skills/business/strategy/skills/apply-probe-strategy/) — Use when uncertain about hidden opposition, competitive response, regulatory posture, or customer reaction — to design a low-cost probe that reveals the real landscape before committing full resources
+- [`apply-protracted-resistance`](./skills/business/strategy/skills/apply-protracted-resistance/) — Use when facing a stronger, better-resourced incumbent in an active, ongoing competitive struggle — not a single defeat already suffered — where a quick decisive confrontation favors the incumbent; instead trade ground for time in an opening phase, mobilize broad, distributed, sustained resistance to shift the balance of resources and will over years, then transition to open offensive once that balance has genuinely shifted.
 - [`apply-razor-and-blades`](./skills/business/strategy/skills/apply-razor-and-blades/) — Use when designing a product line with a durable base unit and a proprietary recurring consumable or complement — deciding whether to price the base unit near or below cost to drive high-margin recurring sales, rather than pricing every unit for standalone profit.
 - [`apply-reversal-probe`](./skills/business/strategy/skills/apply-reversal-probe/) — Use when you need to discover another party's true position, interest, or timeline and direct questioning would produce diplomatic or socially expected answers rather than genuine disclosure
 - [`apply-second-front-strategy`](./skills/business/strategy/skills/apply-second-front-strategy/) — Use when a stronger opponent outguns you in direct confrontation — to relieve pressure on the primary front by opening a credible second front at the opponent's rear or home base
@@ -270,6 +278,7 @@
 - [`apply-strategic-endurance`](./skills/business/strategy/skills/apply-strategic-endurance/) — Use when facing severe competitive defeat — forced exit, punishing terms, or subjugation — where survival requires accepting humiliation in the short term to systematically rebuild capability over years for eventual reversal
 - [`apply-strategic-momentum`](./skills/business/strategy/skills/apply-strategic-momentum/) — Use when planning a campaign, product launch, or competitive push — to build strategic potential before committing, combine direct and indirect forces simultaneously, and strike at the moment of maximum advantage rather than at the earliest opportunity
 - [`apply-strategic-sacrifice`](./skills/business/strategy/skills/apply-strategic-sacrifice/) — Use when preserving something of high strategic value requires giving up something of lower value, or when offering something valuable will attract something of greater value — to make deliberate asymmetric trades rather than defending everything equally
+- [`apply-structural-power-dilution`](./skills/business/strategy/skills/apply-structural-power-dilution/) — Use when a subordinate power base — a regional division, a family-controlled business unit, an equity bloc — is dangerous not because of one person's individual power but because of a standing structure that lets power concentrate and compound across generations or cycles; design a genuinely fair, generous-looking rule that mandates division at each succession point, so concentration fragments by design over time without any single confrontation.
 - [`apply-surplus-reallocation`](./skills/business/strategy/skills/apply-surplus-reallocation/) — Use when managing a portfolio of initiatives, products, teams, or investments — to identify areas generating surplus above their optimal level and actively redirect those resources to deficit areas
 - [`apply-swot-analysis`](./skills/business/strategy/skills/apply-swot-analysis/) — Use when assessing a business, product, team, or initiative before a strategic decision — to systematically surface internal capabilities and external conditions, then derive concrete strategic options rather than an unactionable list.
 - [`apply-systems-iceberg`](./skills/business/strategy/skills/apply-systems-iceberg/) — Use when a problem keeps recurring despite fixes, when a team is reacting to events without understanding why they happen, or when a decision needs structural rather than symptomatic treatment.
@@ -306,7 +315,7 @@
 
 ---
 
-## Cooking (23) <a name="cooking"></a>
+## Cooking (24) <a name="cooking"></a>
 
 ### baking
 
@@ -342,6 +351,7 @@
 
 ### world-cuisine
 
+- [`apply-jiuzhuan-dachang-technique`](./skills/cooking/world-cuisine/skills/apply-jiuzhuan-dachang-technique/) — Use when preparing pork large intestine or other strong-smelling offal cuts that must be fully deodorized before cooking, or when building a single sauce/reduction designed to deliver multiple distinct flavor notes in a specific sequence (sweet, then sour, then spicy, then salty, then an aromatic finish) rather than one blended flavor throughout.
 - [`apply-mirepoix-aromatics`](./skills/cooking/world-cuisine/skills/apply-mirepoix-aromatics/) — Use when building aromatic flavor bases (mirepoix, soffritto, holy trinity, sofrito) across European and world cuisine traditions
 - [`design-fermentation-process`](./skills/cooking/world-cuisine/skills/design-fermentation-process/) — Use when developing a fermentation recipe or process for vegetables, dairy, grains, or beverages using controlled microbial activity.
 - [`design-japanese-dashi-system`](./skills/cooking/world-cuisine/skills/design-japanese-dashi-system/) — Use when building a Japanese dashi-based cooking framework to develop umami depth in soups, sauces, and braises
@@ -431,7 +441,7 @@
 
 ---
 
-## Education (25) <a name="education"></a>
+## Education (27) <a name="education"></a>
 
 ### assessment
 
@@ -463,6 +473,8 @@
 - [`apply-memory-palace`](./skills/education/learning-science/skills/apply-memory-palace/) — Use when memorizing large ordered sequences — speech outlines, vocabulary lists, historical dates, names, numbers, or any information that must be recalled in sequence without notes.
 - [`apply-mind-mapping`](./skills/education/learning-science/skills/apply-mind-mapping/) — Use when brainstorming, exploring relationships between concepts, planning a project scope, or creating an overview of a topic — to generate and organize ideas visually as a radial network rather than a linear list.
 - [`apply-sq3r`](./skills/education/learning-science/skills/apply-sq3r/) — Use when reading a textbook chapter, research paper, technical document, or any dense non-fiction text — to maximize comprehension and retention on first pass by converting passive reading into active questioning and retrieval.
+- [`apply-cross-domain-learning`](./skills/education/learning-science/skills/apply-cross-domain-learning/) — Use when deciding how to allocate learning time across fields, feeling stuck or stale after deep specialization in one domain, or building a deliberate practice of studying unrelated disciplines to generate transferable insight rather than committing all learning time to a single specialty.
+- [`apply-productive-failure-technique`](./skills/education/learning-science/skills/apply-productive-failure-technique/) — Use when designing how a new concept or problem-solving skill is introduced — deliberately have learners attempt a problem beyond their current ability BEFORE any direct instruction, then consolidate with explicit teaching that contrasts their failed attempts against the canonical solution, rather than teaching the correct method first and practicing afterward.
 
 ### teaching
 
@@ -476,7 +488,7 @@
 
 ---
 
-## Engineering (251) <a name="engineering"></a>
+## Engineering (258) <a name="engineering"></a>
 
 ### ai
 
@@ -488,6 +500,7 @@
 - [`design-prompt-template`](./skills/engineering/ai/skills/design-prompt-template/) — Use when building LLM-powered features that require consistent, reliable outputs across varied inputs, or when prompt quality is causing inconsistent application behavior
 - [`design-rag-pipeline`](./skills/engineering/ai/skills/design-rag-pipeline/) — Use when designing a retrieval-augmented generation (RAG) pipeline for grounding LLM outputs in external knowledge
 - [`design-rag-system`](./skills/engineering/ai/skills/design-rag-system/) — Use when building LLM applications that need to answer questions about proprietary, recent, or domain-specific knowledge that is not in the model's training data
+- [`apply-bm25-ranking`](./skills/engineering/ai/skills/apply-bm25-ranking/) — Use when building or tuning full-text search relevance, scoring documents against a keyword query, or building the sparse/keyword leg of a hybrid RAG retriever — including deciding between BM25, raw TF-IDF, and dense/vector search, or diagnosing why keyword search results feel poorly ranked.
 - [`write-eval-suite`](./skills/engineering/ai/skills/write-eval-suite/) — Use when building a test suite to evaluate LLM model performance, prompt quality, or AI system behavior
 - [`apply-evaluation-driven-development`](./skills/engineering/ai/skills/apply-evaluation-driven-development/) — Use when building or iterating on an LLM feature, prompt, or agentic system — to measure improvement objectively rather than speculating about what the model needs.
 - [`design-agentic-workflow`](./skills/engineering/ai/skills/design-agentic-workflow/) — Use when building or prompting a multi-step agentic system — to structure execution so the agent plans before acting, creates verifiable checkpoints, and avoids irreversible mistakes.
@@ -497,6 +510,7 @@
 - [`audit-training-data-integrity`](./skills/engineering/ai/skills/audit-training-data-integrity/) — Use when curating, collecting, or managing datasets for training or fine-tuning machine learning models — to detect and mitigate poisoned, biased, mislabeled, or adversarially crafted training data.
 - [`design-llm-action-boundaries`](./skills/engineering/ai/skills/design-llm-action-boundaries/) — Use when building LLM agents that can take actions in the world — sending emails, modifying files, making API calls, or executing code — to prevent the model from taking actions beyond its intended scope.
 - [`design-llm-plugin-security`](./skills/engineering/ai/skills/design-llm-plugin-security/) — Use when building tools, plugins, or function-calling integrations for LLM systems — defining what actions the model can invoke, how those invocations are validated, and how to prevent misuse of plugin capabilities.
+- [`design-model-based-reinforcement-learning`](./skills/engineering/ai/skills/design-model-based-reinforcement-learning/) — Use when training a reinforcement-learning agent where real-environment interaction is expensive, slow, or limited — robotics, game-playing agents, or any control task — by training a model of the environment's dynamics from real interaction data, then planning or training the policy against simulated rollouts from that learned model rather than requiring real-environment interaction for every training step.
 - [`design-prompt-injection-defense`](./skills/engineering/ai/skills/design-prompt-injection-defense/) — Use when building LLM-powered applications that process user input alongside system instructions — chatbots, AI agents, document processors, code assistants, or any system where untrusted text reaches an LLM.
 - [`validate-llm-output`](./skills/engineering/ai/skills/validate-llm-output/) — Use when LLM outputs are used to make decisions, generate content, answer questions, or drive application logic — to detect hallucinations, verify factual grounding, and prevent over-reliance on unverified AI-generated content.
 
@@ -777,13 +791,18 @@
 
 - [`apply-beyonce-rule`](./skills/engineering/testing/skills/apply-beyonce-rule/) — Use when deciding whether to protect a behavior with a test, responding to an unexpected breakage, or reviewing code that depends on undocumented behavior — if a behavior matters enough to depend on, it needs a test; if it breaks without one, you have no standing to complain.
 - [`apply-page-object-pattern`](./skills/engineering/testing/skills/apply-page-object-pattern/) — Use when writing UI automation or end-to-end tests to keep test logic decoupled from page implementation details, so tests remain maintainable when the UI changes.
+- [`apply-property-based-testing`](./skills/engineering/testing/skills/apply-property-based-testing/) — Use when a function or module has an invariant that should hold across a wide range of inputs — not just the handful of specific cases an example-based test happens to cover — such as "encoding then decoding always returns the original value" or "sorting a list never changes its length"; generate many random inputs, assert the invariant holds for all of them, and let the framework automatically shrink any failing case to a minimal reproduction.
+- [`apply-risk-based-qa-scaling`](./skills/engineering/testing/skills/apply-risk-based-qa-scaling/) — Use when deciding how much additional QA effort a specific code change warrants — route the decision through the change's actual risk profile (does it touch money, authentication, personal data, or concurrency?) to select which additional QA layers apply, rather than applying either a uniform minimum check to every change or an equally exhaustive review to changes with very different risk levels.
 - [`apply-test-driven-development`](./skills/engineering/testing/skills/apply-test-driven-development/) — Use when implementing any business logic, fixing bugs, or when the correctness of a function's behavior under various inputs needs to be proved
+- [`audit-diff-coverage`](./skills/engineering/testing/skills/audit-diff-coverage/) — Use when reviewing a pull request or code change for test adequacy — measure test coverage specifically on the lines changed in that diff, not whole-file or whole-codebase coverage, since a codebase can have high aggregate coverage while the specific lines just added or modified are completely untested.
 - [`audit-test-coverage`](./skills/engineering/testing/skills/audit-test-coverage/) — Use when evaluating the adequacy of a test suite, identifying coverage gaps, or deciding where to add tests
 - [`design-contract-testing`](./skills/engineering/testing/skills/design-contract-testing/) — Use when multiple teams maintain independent services that communicate via APIs, or when integration test environments are slow, expensive, or unavailable
 - [`fix-flaky-test`](./skills/engineering/testing/skills/fix-flaky-test/) — Use when a test passes and fails non-deterministically without code changes — to identify the root cause category and eliminate the flakiness rather than retrying or skipping the test.
 - [`design-load-test`](./skills/engineering/testing/skills/design-load-test/) — Use when designing or running load, stress, or performance tests to validate system behavior under traffic
 - [`design-test-pyramid`](./skills/engineering/testing/skills/design-test-pyramid/) — Use when establishing a testing strategy for a new project, when test suites are slow or flaky, or when the ratio of unit/integration/e2e tests is imbalanced
 - [`design-test-strategy`](./skills/engineering/testing/skills/design-test-strategy/) — Use when starting a new project, onboarding a codebase, auditing test coverage quality, or deciding where to invest testing effort across unit, integration, and end-to-end layers.
+- [`apply-verification-status-reporting`](./skills/engineering/testing/skills/apply-verification-status-reporting/) — Use when reporting the results of tests, checks, or any automated or manual verification step — explicitly label any result you have not actually observed running as unverified rather than presenting it as passing, and never weaken a test's assertion or scope just to make it pass, since a reporting discipline that silently conflates "unverified" with "passing" destroys the reliability of every report built on it.
+- [`run-smoke-test`](./skills/engineering/testing/skills/run-smoke-test/) — Use when a build or deployment has just completed and needs verification before being declared done — actually run the built artifact in a realistic environment and check the core paths work, rather than treating a passing automated test suite as proof the real system functions, since the test harness and the real runtime environment can diverge in ways only actual execution reveals.
 - [`write-integration-test`](./skills/engineering/testing/skills/write-integration-test/) — Use when writing tests that verify the interaction between two or more components, services, or external systems
 - [`write-unit-test`](./skills/engineering/testing/skills/write-unit-test/) — Use when writing a new unit test, reviewing tests for quality, adding tests to untested code, or when a test is fragile, slow, or hard to understand.
 
@@ -889,7 +908,7 @@
 
 ---
 
-## Finance (128) <a name="finance"></a>
+## Finance (130) <a name="finance"></a>
 
 ### accounting
 
@@ -902,6 +921,7 @@
 
 ### corporate
 
+- [`apply-zero-based-budgeting`](./skills/finance/corporate/skills/apply-zero-based-budgeting/) — Use when restructuring a business's cost base during a turnaround, margin-improvement initiative, or annual budget cycle — building every expense line from a zero baseline and requiring explicit justification, rather than incrementally adjusting last year's budget forward.
 - [`calculate-corporate-unit-economics`](./skills/finance/corporate/skills/calculate-corporate-unit-economics/) — Use when evaluating the profitability and scalability of a business model at the per-customer or per-transaction level
 - [`calculate-customer-lifetime-value`](./skills/finance/corporate/skills/calculate-customer-lifetime-value/) — Use when calculating how much a customer is worth, pricing acquisition costs, or evaluating unit economics — e.g., "what's our LTV?", "how much can we spend to acquire a customer?", "LTV:CAC ratio?", "what's our payback period?"
 - [`calculate-npv-irr`](./skills/finance/corporate/skills/calculate-npv-irr/) — Use when evaluating capital investments, projects, or acquisitions using Net Present Value and Internal Rate of Return analysis
@@ -923,6 +943,7 @@
 - [`apply-active-bond-total-return-management`](./skills/finance/investing/skills/apply-active-bond-total-return-management/) — Use when managing a fixed-income portfolio actively rather than passively — positioning duration based on an interest-rate view, rotating between credit sectors based on relative value, and pursuing total return (price appreciation plus income) rather than simply holding bonds to maturity for income alone.
 - [`apply-arbitrage-pricing-theory`](./skills/finance/investing/skills/apply-arbitrage-pricing-theory/) — Use when evaluating an asset's expected return using multiple systematic risk factors — rather than a single market-factor model — identifying which specific macroeconomic and fundamental factors actually drive the asset's returns and how sensitive it is to each.
 - [`apply-asymmetric-risk-reward-sizing`](./skills/finance/investing/skills/apply-asymmetric-risk-reward-sizing/) — Use when sizing a trading or investment position — requiring a specific minimum ratio of potential reward to defined risk (e.g., risking one dollar to make five) before entering, and cutting the position quickly if the predefined risk level is reached, prioritizing defense over being right on every position.
+- [`apply-barbell-strategy`](./skills/finance/investing/skills/apply-barbell-strategy/) — Use when allocating capital and deciding how much exposure to take to speculative, high-upside opportunities — split allocation between an extremely safe majority and a small, explicitly capped allocation to high-convexity, open-ended-upside bets, while deliberately avoiding the medium-risk middle ground most portfolios default to.
 - [`apply-behavioral-investing-discipline`](./skills/finance/investing/skills/apply-behavioral-investing-discipline/) — Use when market volatility, a large gain, or a large loss is tempting a deviation from an investment plan — e.g., "should I sell during a crash?", "should I chase this hot stock?", "I panic-sold, what now?"
 - [`apply-benfen-principle`](./skills/finance/investing/skills/apply-benfen-principle/) — Use when evaluating a company's management integrity, or one's own investing discipline — checking whether decisions stick to sound, honest fundamentals rather than chasing shortcuts or short-term expedience, per Duan Yongping's 本分 (běnfèn) principle.
 - [`apply-buy-and-hold-strategy`](./skills/finance/investing/skills/apply-buy-and-hold-strategy/) — Use when deciding whether to hold an investment position through market fluctuations or attempt to trade in and out based on market conditions — e.g., "should I try to time the market?", "when should I sell before a downturn?", "does market timing work?"
@@ -1145,7 +1166,7 @@
 
 ---
 
-## Language (17) <a name="language"></a>
+## Language (18) <a name="language"></a>
 
 ### learning
 
@@ -1164,6 +1185,7 @@
 - [`apply-active-questioning-technique`](./skills/language/communication/skills/apply-active-questioning-technique/) — Use when using structured questioning techniques to deepen understanding, build rapport, and facilitate dialogue in conversations and interviews
 - [`apply-nonverbal-communication-principles`](./skills/language/communication/skills/apply-nonverbal-communication-principles/) — Use when applying nonverbal communication (body language, eye contact, proximity, gesture) to enhance message delivery and interpersonal rapport
 - [`design-presentation-structure`](./skills/language/communication/skills/design-presentation-structure/) — Use when designing a persuasive presentation structure — organizing argument flow, evidence, and call to action for a target audience
+- [`run-public-speaking-practice-drill`](./skills/language/communication/skills/run-public-speaking-practice-drill/) — Use when someone wants to build general public-speaking fluency and confidence over time — not structure a single presentation's argument, but develop the underlying speaking skill itself through repeated prepared-speech and extemporaneous-speech practice with structured feedback, the format Dale Carnegie's Effective Speaking course and Toastmasters International independently converged on.
 
 ### linguistics
 
@@ -1178,11 +1200,12 @@
 
 ---
 
-## Law (51) <a name="law"></a>
+## Law (52) <a name="law"></a>
 
 ### contracts
 
 - [`design-contract-negotiation-strategy`](./skills/law/contracts/skills/design-contract-negotiation-strategy/) — Use when planning or executing a contract negotiation for commercial agreements, partnerships, or high-stakes deals
+- [`design-joint-development-agreement`](./skills/law/contracts/skills/design-joint-development-agreement/) — Use when two parties have an unresolved dispute over an underlying claim, ownership, or title question — a disputed boundary, overlapping mineral rights, contested IP ownership — that is blocking cooperation, and resolving that claim in the near term is impractical; structure an agreement that explicitly shelves the disputed claim and jointly develops and shares the economic value at stake now, deferring resolution of the underlying dispute to later or separate proceedings.
 - [`design-joint-venture-governance-agreement`](./skills/law/contracts/skills/design-joint-venture-governance-agreement/) — Use when two or more companies are forming a joint venture and need to structure its governance in the JV agreement — defining board or management committee composition, veto rights over major decisions, and a specific deadlock-resolution mechanism, rather than assuming ordinary majority-rule governance will function adequately for a structure with only a small number of equally-invested partners.
 - [`design-vendor-agreement-template`](./skills/law/contracts/skills/design-vendor-agreement-template/) — Use when creating a reusable vendor agreement template that covers SLAs, liability, data handling, termination, and exit provisions for recurring supplier or service provider relationships
 - [`negotiate-lease`](./skills/law/contracts/skills/negotiate-lease/) — Use when reviewing or negotiating a residential or commercial lease before signing — identifying risky clauses, requesting amendments, and reaching a written agreement that protects your interests
@@ -1481,7 +1504,7 @@
 
 ---
 
-## Productivity (25) <a name="productivity"></a>
+## Productivity (26) <a name="productivity"></a>
 
 ### focus
 
@@ -1515,6 +1538,7 @@
 - [`apply-eisenhower-matrix`](./skills/productivity/time-management/skills/apply-eisenhower-matrix/) — Use when your task list feels overwhelming and you need to decide what to do, defer, delegate, or drop
 - [`apply-parkinson-law`](./skills/productivity/time-management/skills/apply-parkinson-law/) — Use when a task is taking longer than expected, a project has slack time that is being absorbed, or you want to compress work into a shorter window to force prioritization and eliminate perfectionism.
 - [`apply-time-blocking`](./skills/productivity/time-management/skills/apply-time-blocking/) — Use when planning your workday to eliminate reactive drift and protect deep work time
+- [`apply-time-log-audit`](./skills/productivity/time-management/skills/apply-time-log-audit/) — Use when you suspect your actual time allocation doesn't match your intended priorities — log where time actually goes in real, granular increments for one to two weeks, then compare the logged reality against what you assumed or planned, since most people's assumption about where their time goes is measurably wrong until they log it directly.
 - [`design-weekly-review-process`](./skills/productivity/time-management/skills/design-weekly-review-process/) — Use when designing a structured weekly review ritual to process tasks, plan the week, and maintain control of commitments and projects
 
 ### tools
@@ -1525,7 +1549,7 @@
 
 ---
 
-## Psychology (28) <a name="psychology"></a>
+## Psychology (32) <a name="psychology"></a>
 
 ### behavioral
 
@@ -1548,6 +1572,9 @@
 - [`apply-acceptance-commitment-therapy`](./skills/psychology/cognitive/skills/apply-acceptance-commitment-therapy/) — Use when helping someone reduce psychological suffering caused by rigid avoidance, fusion with unhelpful thoughts, or values-behavior disconnection — particularly for anxiety, depression, chronic pain, or stress.
 - [`apply-clinamen-deviation-technique`](./skills/psychology/cognitive/skills/apply-clinamen-deviation-technique/) — Use when someone is stuck in a deterministic rut and needs a deliberate, controlled deviation to surface a genuinely novel option
 - [`apply-cognitive-reframing`](./skills/psychology/cognitive/skills/apply-cognitive-reframing/) — Use when a person holds distorted, unhelpful, or catastrophic thought patterns that fuel emotional distress, anxiety, or depression
+- [`apply-devils-advocate-technique`](./skills/psychology/cognitive/skills/apply-devils-advocate-technique/) — Use when a group or individual is converging on a conclusion and about to commit to it — before an irreversible decision, a major bet, or locking in a plan — to deliberately construct and test the strongest case against the prevailing consensus view, rather than assuming early agreement means the view is correct.
+- [`apply-dual-process-diagnostic`](./skills/psychology/cognitive/skills/apply-dual-process-diagnostic/) — Use when about to act on a fast, intuitive judgment for a decision that's high-stakes, unfamiliar, made under time pressure, or in a domain that doesn't behave regularly enough for intuition to have learned reliable cues — check the situation against these specific conditions before trusting the intuitive answer, and if any apply, deliberately force a slower, explicit check rather than acting on the first judgment that comes to mind.
+- [`apply-logotherapy`](./skills/psychology/cognitive/skills/apply-logotherapy/) — Use when someone is struggling to find meaning or purpose — especially when facing difficult circumstances, loss, or suffering that can't be removed or fixed directly — to help them identify meaning through one of three routes (work/achievement, love/relationships, or the attitude chosen toward unavoidable suffering) rather than assuming meaning can only come from pleasure or from removing the difficulty itself.
 - [`apply-mental-models-framework`](./skills/psychology/cognitive/skills/apply-mental-models-framework/) — Use when applying mental models (first principles, inversion, second-order thinking, probabilistic thinking) to improve decision-making and avoid cognitive bias
 - [`apply-metacognition-techniques`](./skills/psychology/cognitive/skills/apply-metacognition-techniques/) — Use when applying metacognition techniques — calibration, self-explanation, retrieval scheduling, and monitoring — to improve self-regulated learning and problem-solving
 - [`apply-regret-minimization`](./skills/psychology/cognitive/skills/apply-regret-minimization/) — Use when facing a major irreversible decision — career change, starting a company, relocating, committing to a relationship — to evaluate choices by projecting your future self's retrospective judgment rather than current-moment anxiety.
@@ -1559,6 +1586,7 @@
 - [`apply-confucian-life-stage-framework`](./skills/psychology/positive/skills/apply-confucian-life-stage-framework/) — Use when the user wants to reflect on where they stand developmentally by age or decade, self-assess life-stage progress, or plan what comes next as they age
 - [`apply-gratitude-journaling`](./skills/psychology/positive/skills/apply-gratitude-journaling/) — Use when establishing a daily or weekly practice to improve wellbeing, reduce depression symptoms, or shift habitual negative attentional bias — by writing specific, concrete things you are grateful for using the evidence-based format that produces lasting mood effects.
 - [`apply-growth-mindset-techniques`](./skills/psychology/positive/skills/apply-growth-mindset-techniques/) — Use when someone is avoiding challenges, giving up after setbacks, or attributing ability rather than effort and strategy to performance outcomes
+- [`apply-job-crafting-technique`](./skills/psychology/positive/skills/apply-job-crafting-technique/) — Use when someone feels their job is meaningless or purely transactional, wants to cultivate a stronger sense of purpose or calling in their existing work without changing jobs, or a manager/coach wants a structured way to help someone reshape their relationship to their role from the bottom up.
 - [`apply-self-compassion-practice`](./skills/psychology/positive/skills/apply-self-compassion-practice/) — Use when helping someone reduce self-criticism, shame, or harsh inner judgment — particularly when perfectionism, failure responses, or chronic self-blame are interfering with wellbeing, resilience, or motivation.
 - [`design-character-strengths-plan`](./skills/psychology/positive/skills/design-character-strengths-plan/) — Use when helping someone identify their top character strengths and design a structured plan to apply them in new ways — particularly for improving engagement, wellbeing, resilience, or role satisfaction.
 - [`design-goal-setting-framework`](./skills/psychology/positive/skills/design-goal-setting-framework/) — Use when someone needs to define, prioritize, or create an actionable system around meaningful goals — personal, professional, or organizational
@@ -1573,7 +1601,7 @@
 
 ---
 
-## Science (46) <a name="science"></a>
+## Science (51) <a name="science"></a>
 
 ### astronomy
 
@@ -1617,9 +1645,13 @@
 
 ### mathematics
 
+- [`apply-analytic-geometry`](./skills/science/mathematics/skills/apply-analytic-geometry/) — Use when a geometric problem — distance, intersection, locus, optimization, or a claim about points, lines, and curves — is better solved by assigning coordinates and manipulating algebraic equations than by classical synthetic/axiomatic proof, including distance/midpoint/slope calculations and vector-based angle, area, and plane computations.
 - [`apply-bayesian-reasoning`](./skills/science/mathematics/skills/apply-bayesian-reasoning/) — Use when updating beliefs from evidence, estimating probabilities under uncertainty, or making decisions where prior knowledge and new data must be combined
+- [`apply-bayesian-network-inference`](./skills/science/mathematics/skills/apply-bayesian-network-inference/) — Use when reasoning about multiple interacting uncertain variables with a known or learnable dependency structure — medical diagnosis with several correlated symptoms and risk factors, fault diagnosis across interdependent system components, or any query about one variable given evidence on several others — by factoring the joint distribution as a directed acyclic graph and running network inference, rather than treating each variable as an independent single-hypothesis update.
+- [`apply-conic-section-properties`](./skills/science/mathematics/skills/apply-conic-section-properties/) — Use when a curve is a circle, ellipse, parabola, or hyperbola — classifying a general second-degree equation into standard form and applying its focus, directrix, and eccentricity properties to a physical problem, such as orbital mechanics, parabolic reflector/antenna design, or optical mirror focusing.
 - [`apply-differential-equations`](./skills/science/mathematics/skills/apply-differential-equations/) — Use when modeling or solving differential equations — classifying ODE/PDE type, selecting analytical or numerical solution methods, validating solutions, and interpreting the physical or mathematical meaning of the result
 - [`apply-graph-theory-analysis`](./skills/science/mathematics/skills/apply-graph-theory-analysis/) — Use when analyzing networks, relationships, or connectivity problems using graph theory — including graph representation, traversal algorithms, shortest path, minimum spanning tree, centrality measures, and community detection
+- [`apply-ladder-of-causation`](./skills/science/mathematics/skills/apply-ladder-of-causation/) — Use when deciding what kind of evidence a question actually requires — before running an experiment, trusting an observational correlation, or reasoning about "what would have happened if" — by classifying the question as associational (what is?), interventional (what if I do X?), or counterfactual (what if I had done X instead?), since each rung requires a different type of evidence or model and no amount of data at a lower rung can answer a question posed at a higher one.
 - [`apply-linear-algebra-methods`](./skills/science/mathematics/skills/apply-linear-algebra-methods/) — Use when solving systems of linear equations, decomposing matrices, analyzing transformations, or working with eigenvalues and eigenvectors in applied mathematics, data science, physics, or engineering contexts
 - [`calculate-confidence-interval`](./skills/science/mathematics/skills/calculate-confidence-interval/) — Use when reporting statistical estimates that require quantified uncertainty bounds for scientific, clinical, or policy decision-making
 - [`calculate-probability-distribution`](./skills/science/mathematics/skills/calculate-probability-distribution/) — Use when working with probability distributions — identifying the correct distribution for a phenomenon, computing probabilities and quantiles, fitting distributions to data, and checking distributional assumptions statistically
@@ -1631,6 +1663,7 @@
 
 - [`apply-conservation-laws`](./skills/science/physics/skills/apply-conservation-laws/) — Use when solving mechanics, fluid dynamics, or electromagnetism problems by applying conservation of energy, momentum, angular momentum, or charge
 - [`apply-dimensional-analysis`](./skills/science/physics/skills/apply-dimensional-analysis/) — Use when deriving relationships between physical quantities, checking equations for consistency, or scaling physical models to different sizes or conditions
+- [`apply-maxwells-equations`](./skills/science/physics/skills/apply-maxwells-equations/) — Use when solving electromagnetic field problems — the field of a charge distribution, the field of a current-carrying conductor, induced EMF from changing flux, or displacement current in a capacitor — by matching the problem's symmetry to the correct form of Gauss's law, Faraday's law, or the Ampère-Maxwell law, rather than attempting a direct force calculation on every source charge or current element.
 - [`calculate-error-propagation`](./skills/science/physics/skills/calculate-error-propagation/) — Use when calculating how measurement uncertainties propagate through mathematical operations — computing combined uncertainty for sums, products, powers, and general functions using partial derivative methods or Monte Carlo propagation
 - [`calculate-measurement-uncertainty`](./skills/science/physics/skills/calculate-measurement-uncertainty/) — Use when reporting physical measurements that require quantified uncertainty estimates for scientific or metrological purposes
 - [`calculate-thermodynamic-efficiency`](./skills/science/physics/skills/calculate-thermodynamic-efficiency/) — Use when analyzing the thermodynamic efficiency of heat engines, refrigerators, power cycles, or chemical processes — applying the first and second laws of thermodynamics, Carnot efficiency, entropy analysis, and exergy
@@ -1738,7 +1771,7 @@
 
 ---
 
-## Writing (30) <a name="writing"></a>
+## Writing (31) <a name="writing"></a>
 
 ### academic
 
@@ -1753,6 +1786,7 @@
 ### copywriting
 
 - [`apply-aida`](./skills/writing/copywriting/skills/apply-aida/) — Use when structuring persuasive copy for emails, ads, sales pages, or any communication designed to move a reader to action
+- [`apply-needs-hierarchy-diagnostic`](./skills/writing/copywriting/skills/apply-needs-hierarchy-diagnostic/) — Use when crafting a message, product appeal, or pitch aimed at an aspirational need level — esteem, status, self-actualization — to check whether the target audience's more basic needs (financial security, safety, belonging) are actually met in this context right now, since an unmet basic need makes a higher-level appeal underperform regardless of craft quality.
 - [`design-landing-page-copy`](./skills/writing/copywriting/skills/design-landing-page-copy/) — Use when writing or critiquing copy for a marketing landing page, product page, or conversion-focused web page
 - [`write-case-study`](./skills/writing/copywriting/skills/write-case-study/) — Use when writing a B2B case study to demonstrate customer success, build social proof, or support sales enablement with a compelling narrative.
 - [`write-email-subject-line`](./skills/writing/copywriting/skills/write-email-subject-line/) — Use when writing email subject lines for marketing campaigns, newsletters, or transactional emails where open rate and deliverability matter.

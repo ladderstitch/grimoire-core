@@ -3,6 +3,7 @@ name: apply-social-proof-principles
 description: Use when designing persuasive communications, product pages, or social environments — applying social proof principles (testimonials, user counts, expert endorsement, social sharing metrics, popularity signals) to reduce decision uncertainty and increase adoption of a desired behavior or choice.
 source: "Cialdini \"Influence: The Psychology of Persuasion\" rev. ed. (2021); Goldstein & Cialdini \"Social Norms Approach\" (2007); Asch \"Studies of Independence and Conformity\" (1951); Sunstein \"Going to Extremes\" (2009); Nielsen Norman Group UX research on social proof"
 tags: [psychology, social-proof, persuasion, influence, social-norms, marketing, ux]
+related: [apply-graduated-entry-point-technique]
 ---
 
 # Apply Social Proof Principles

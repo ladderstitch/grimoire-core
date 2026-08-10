@@ -3,6 +3,7 @@ name: apply-metacognition-techniques
 description: Use when wanting to improve learning effectiveness, studying for complex material, or preparing for high-stakes performance — applying metacognitive techniques (calibration, self-explanation, planning, monitoring, and evaluation) to improve self-regulated learning and reduce the illusion of knowing.
 source: Flavell "Metacognition and Cognitive Monitoring" (1979); Dunning & Kruger "Unskilled and Unaware" (1999); Roediger & Karpicke "Test-Enhanced Learning" (2006); Chi "Self-Explaining" in Cognitive Perspectives on Learning (1994); Zimmerman "Self-Regulated Learning" (2002)
 tags: [psychology, metacognition, learning, self-regulation, study-skills, cognitive-science, education]
+related: [apply-productive-failure-technique]
 ---
 
 # Apply Metacognition Techniques

@@ -3,6 +3,7 @@ name: design-security-logging
 description: Use when adding logging to authentication flows, authorization decisions, admin actions, or any security-sensitive operation — to enable detection, forensics, and incident response.
 source: 'OWASP Logging Cheat Sheet (owasp.org/www-project-cheat-sheets); OWASP Top 10 2021 A09; NIST SP 800-92; CWE-778; PCI DSS v4.0 Requirement 10'
 tags: [security, owasp, logging, monitoring, audit-trail, incident-response, developer, devops]
+related: [apply-risk-based-qa-scaling]
 ---
 
 # Design Security Logging

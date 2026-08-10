@@ -3,6 +3,7 @@ name: apply-linear-algebra-methods
 description: Use when solving systems of linear equations, decomposing matrices, analyzing transformations, or working with eigenvalues and eigenvectors in applied mathematics, data science, physics, or engineering contexts.
 source: Strang "Introduction to Linear Algebra" 5th ed. (2016); Horn & Johnson "Matrix Analysis" 2nd ed. (2013); Golub & Van Loan "Matrix Computations" 4th ed. (2013)
 tags: [linear-algebra, matrix-decomposition, eigenvalues, systems-of-equations, numerical-methods, data-science]
+related: [apply-analytic-geometry]
 ---
 
 # Apply Linear Algebra Methods

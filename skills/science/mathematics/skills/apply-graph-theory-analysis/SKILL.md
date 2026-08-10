@@ -3,6 +3,7 @@ name: apply-graph-theory-analysis
 description: Use when analyzing networks, relationships, or connectivity problems using graph theory — including graph representation, traversal algorithms, shortest path, minimum spanning tree, centrality measures, and community detection.
 source: 'West "Introduction to Graph Theory" 2nd ed. (2001); Newman "Networks: An Introduction" (2010); Diestel "Graph Theory" 5th ed. (2017, free online); NetworkX documentation (Hagberg et al., 2008)'
 tags: [graph-theory, network-analysis, shortest-path, centrality, algorithms, combinatorics, data-structures]
+related: [apply-analytic-geometry, apply-bayesian-network-inference]
 ---
 
 # Apply Graph Theory Analysis

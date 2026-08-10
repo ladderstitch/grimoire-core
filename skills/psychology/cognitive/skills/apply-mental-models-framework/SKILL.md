@@ -3,6 +3,7 @@ name: apply-mental-models-framework
 description: Use when facing complex decisions, unfamiliar problems, or situations requiring clear thinking — applying a mental models framework (first principles, inversion, second-order thinking, map vs. territory) to reason through the situation rather than relying on intuition and cognitive bias.
 source: Munger "Poor Charlie's Almanack" (2005); Parrish "The Great Mental Models" Vol. 1–4 (2019–2022); Kahneman "Thinking, Fast and Slow" (2011); Senge "The Fifth Discipline" (1990); Tversky & Kahneman (1974) heuristics and biases research
 tags: [psychology, mental-models, decision-making, critical-thinking, cognitive-bias, reasoning]
+related: [apply-devils-advocate-technique, apply-cross-domain-learning, apply-dual-process-diagnostic]
 ---
 
 # Apply Mental Models Framework

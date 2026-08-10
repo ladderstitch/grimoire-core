@@ -3,7 +3,7 @@ name: apply-clinamen-deviation-technique
 description: Use when someone is stuck in a deterministic rut — repeating the same approach, applying the same rules, or exhausting structured/logical techniques without a breakthrough — and needs a deliberate, controlled deviation to surface a genuinely novel option. E.g. "we've tried everything logical and it's not working", "I need a genuinely new idea, not a refinement", "how do I get unstuck when the structured approach isn't working"
 source: Lucretius, "De Rerum Natura" (Book II, on the clinamen/atomic swerve); Kirkpatrick, Gelatt & Vecchi (1983) "Optimization by Simulated Annealing", Science; Holland (1975) "Adaptation in Natural and Artificial Systems" — genetic algorithm mutation; de Bono (1970) "Lateral Thinking" — random entry technique; Sternin & Choo (2000) "The Power of Positive Deviance", Harvard Business Review
 tags: [creativity, randomness, deviation, lateral-thinking, innovation, problem-solving, deterministic-rut, novelty]
-related: [apply-mental-models-framework, apply-first-principles, apply-inversion, run-six-thinking-hats]
+related: [apply-mental-models-framework, apply-first-principles, apply-inversion, run-six-thinking-hats, apply-devils-advocate-technique, apply-cross-domain-learning]
 ---
 
 # Apply Clinamen Deviation Technique

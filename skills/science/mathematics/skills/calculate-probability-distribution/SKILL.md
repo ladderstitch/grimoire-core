@@ -3,6 +3,7 @@ name: calculate-probability-distribution
 description: Use when working with probability distributions — identifying the correct distribution for a phenomenon, computing probabilities and quantiles, fitting distributions to data, and checking distributional assumptions statistically.
 source: DeGroot & Schervish "Probability and Statistics" 4th ed. (2012); Casella & Berger "Statistical Inference" 2nd ed. (2002); Johnson et al. "Univariate Discrete Distributions" 3rd ed. (2005)
 tags: [probability, statistics, distribution-fitting, hypothesis-testing, bayesian, quantiles, random-variables]
+related: [apply-bayesian-network-inference]
 ---
 
 # Calculate Probability Distribution

@@ -3,6 +3,7 @@ name: apply-jobs-to-be-done
 description: Use when designing a product, evaluating product-market fit, or investigating why customers switch to or away from a solution — to understand what functional, social, and emotional progress customers are trying to make, independent of your existing product framing.
 source: 'Christensen, Hall, Dillon & Duncan, "Know Your Customers'' Jobs to Be Done", Harvard Business Review (2016); Christensen, "The Innovator''s Dilemma", Harvard Business School Press (1997); Moesta & Spiek, "Demand-Side Sales 101" (2020); Ulwick, "Jobs to Be Done: Theory to Practice", IDEA Bite Press (2016)'
 tags: [jobs-to-be-done, product-market-fit, customer-research, innovation, strategy, jtbd, product]
+related: [apply-needs-hierarchy-diagnostic]
 ---
 
 # Apply Jobs to Be Done

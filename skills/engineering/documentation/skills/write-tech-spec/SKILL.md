@@ -49,6 +49,8 @@ Sources: Titus Winters, Tom Manshreck, Hyrum Wright, "Software Engineering at Go
 
 9. **Resolve open questions and update the spec** before engineering kicks off. The spec should reflect the final agreed design, not just the initial proposal.
 
+10. **Require an explicit, blocking approval before any implementation code is written.** Get a named reviewer (the tech lead or staff engineer from step 8) to record an explicit yes/no approval on the final, updated spec — not silence, not an assumed "no objections raised." Treat the absence of a recorded approval as "not approved," not as implicit permission to proceed.
+
 ## Rules
 
 - The problem statement must appear before the solution. If you lead with the solution, you prevent reviewers from questioning whether the solution matches the problem.
@@ -57,6 +59,7 @@ Sources: Titus Winters, Tom Manshreck, Hyrum Wright, "Software Engineering at Go
 - API contracts must include error responses, not just happy paths. Every error code the API returns must be specified.
 - The spec is frozen when implementation begins. After that, changes are tracked as amendments with a date and author, not silent edits.
 - Length scales with scope: a 2-day refactor warrants 1–2 pages. A new microservice warrants 4–8 pages. A platform migration may warrant 10–15 pages with appendices.
+- Implementation does not begin until a named reviewer has recorded an explicit approval on the final spec — the absence of objections is not the same as approval, and starting implementation before that recorded approval defeats the entire purpose of writing the spec first.
 
 ## Examples
 

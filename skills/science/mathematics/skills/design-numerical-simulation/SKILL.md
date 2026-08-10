@@ -3,6 +3,7 @@ name: design-numerical-simulation
 description: Use when designing a numerical simulation — including Monte Carlo, finite difference, finite element, or agent-based models — specifying convergence criteria, uncertainty quantification, validation strategy, and computational resource requirements.
 source: Press et al. "Numerical Recipes" 3rd ed. (2007); Law "Simulation Modeling and Analysis" 5th ed. (2015); Saltelli et al. "Global Sensitivity Analysis" (2008); Oberkampf & Roy "Verification and Validation in Scientific Computing" (2010)
 tags: [numerical-simulation, monte-carlo, finite-element, convergence, uncertainty-quantification, validation]
+related: [design-model-based-reinforcement-learning]
 ---
 
 # Design Numerical Simulation

@@ -3,6 +3,7 @@ name: apply-beyonce-rule
 description: Use when deciding whether to protect a behavior with a test, responding to an unexpected breakage, or reviewing code that depends on undocumented behavior — if a behavior matters enough to depend on, it needs a test; if it breaks without one, you have no standing to complain.
 source: "Winters, Manshreck & Wright \"Software Engineering at Google\" (O'Reilly, 2020) ch.11; Titus Winters \"C++ as a Live at Head Language\" (CppCon 2017); attributed to Beyoncé \"Single Ladies\" (Columbia Records, 2008)"
 tags: [testing, contracts, dependencies, api-design, software-engineering, behavioral-testing]
+related: [apply-verification-status-reporting]
 verified: true
 ---
 

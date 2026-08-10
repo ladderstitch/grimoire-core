@@ -3,7 +3,7 @@ name: apply-mission-primacy-principle
 description: Use when a tempting but off-mission opportunity appears mid-execution — a quick win, an inbound request, an easy side-project — and pursuing it would cost time or focus on the actual primary objective. E.g. "should I take this on right now", "this looks easy, why not just do it too", "we're getting pulled in a different direction"
 source: Chinese military idiom 将军赶路，不追小兔 ("a general rushing to his destination does not chase small rabbits"); von Moltke the Elder's Schwerpunkt/main-effort doctrine (German General Staff principle of organizing all operations around one decisive point); Collins (2001) "Good to Great" — the Stop Doing List; the Buffett 25/5 rule — define top priorities, then treat everything else as an explicit avoid-at-all-costs list
 tags: [focus, strategy, prioritization, opportunity-cost, mission, distraction, momentum]
-related: [apply-eisenhower-matrix, apply-single-tasking, apply-sufficiency-threshold, apply-economy-of-force]
+related: [apply-eisenhower-matrix, apply-single-tasking, apply-sufficiency-threshold, apply-economy-of-force, apply-management-by-objectives, apply-job-crafting-technique]
 ---
 
 # Apply Mission Primacy Principle

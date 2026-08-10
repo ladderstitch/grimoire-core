@@ -3,6 +3,7 @@ name: apply-differential-equations
 description: Use when modeling or solving differential equations — classifying ODE/PDE type, selecting analytical or numerical solution methods, validating solutions, and interpreting the physical or mathematical meaning of the result.
 source: Strogatz "Nonlinear Dynamics and Chaos" 2nd ed. (2014); Boyce & DiPrima "Elementary Differential Equations" 11th ed. (2017); Hairer et al. "Solving Ordinary Differential Equations" (1993); Burden & Faires "Numerical Analysis" 10th ed. (2016)
 tags: [differential-equations, ode, pde, numerical-methods, dynamical-systems, mathematical-modeling]
+related: [apply-maxwells-equations]
 ---
 
 # Apply Differential Equations

@@ -3,7 +3,7 @@ name: audit-cognitive-tendency-checklist
 description: Use when reviewing a specific investment decision before committing capital — checking it against a checklist of named psychological tendencies (incentive-caused bias, social proof, commitment/consistency bias, authority influence, and others) that could be distorting the judgment behind it.
 source: Charlie Munger, "The Psychology of Human Misjudgment" (speech, USC Business School, 1995; compiled in "Poor Charlie's Almanack," 2005)
 tags: [finance, investing, cognitive-bias, decision-audit, munger, checklist]
-related: [audit-investment-thesis, apply-lollapalooza-effect-detection, apply-behavioral-investing-discipline]
+related: [audit-investment-thesis, apply-lollapalooza-effect-detection, apply-behavioral-investing-discipline, apply-dual-process-diagnostic]
 ---
 
 # Audit Cognitive Tendency Checklist

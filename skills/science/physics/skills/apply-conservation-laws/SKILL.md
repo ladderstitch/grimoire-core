@@ -3,6 +3,7 @@ name: apply-conservation-laws
 description: Use when solving mechanics, fluid dynamics, or electromagnetism problems by applying conservation of energy, momentum, angular momentum, or charge — identifying the system boundary, the conserved quantity, and the conditions under which conservation applies.
 source: Halliday, Resnick & Krane "Physics" 5th ed. (2002); Griffiths "Introduction to Electrodynamics" 4th ed. (2013); Goldstein "Classical Mechanics" 3rd ed. (2002)
 tags: [conservation-laws, mechanics, energy-conservation, momentum, angular-momentum, physics, dynamics]
+related: [apply-maxwells-equations]
 ---
 
 # Apply Conservation Laws

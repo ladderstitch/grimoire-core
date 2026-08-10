@@ -3,6 +3,7 @@ name: design-cash-flow-forecast
 description: Use when building a cash flow projection for a business — e.g., "will we run out of cash?", "how much runway do we have?", "13-week cash flow model", "cash flow forecast for fundraising"
 source: Association for Financial Professionals (AFP) cash management guidelines; McKinsey "Cash is king" operations research; Sageworks/Pepperdine private capital market research; FP&A best practices (APQC)
 tags: [finance, corporate, cash-flow, forecasting, financial-planning, runway, treasury]
+related: [apply-zero-based-budgeting]
 verified: true
 ---
 

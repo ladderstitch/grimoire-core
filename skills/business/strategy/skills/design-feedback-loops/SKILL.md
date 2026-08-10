@@ -4,7 +4,7 @@ description: Use when designing organizational processes, product iteration cycl
 source: Donella Meadows, "Thinking in Systems", 2008; Norbert Wiener, "Cybernetics", 1948; Peter Senge, "The Fifth Discipline", 1990
 tags: [systems-thinking, feedback, organizational-design, strategist, cycle-time, adaptation-speed]
 verified: true
-related: [apply-systems-iceberg]
+related: [apply-systems-iceberg, apply-goodharts-law]
 ---
 
 # Design Feedback Loops

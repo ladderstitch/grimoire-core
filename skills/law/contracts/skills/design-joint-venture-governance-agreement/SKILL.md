@@ -3,7 +3,7 @@ name: design-joint-venture-governance-agreement
 description: Use when two or more companies are forming a joint venture and need to structure its governance in the JV agreement — defining board or management committee composition, veto rights over major decisions, and a specific deadlock-resolution mechanism, rather than assuming ordinary majority-rule governance will function adequately for a structure with only a small number of equally-invested partners.
 source: American Bar Association, Model Joint Venture Agreement and joint venture governance practice guidance
 tags: [law, contracts, joint-venture, deadlock-resolution, governance-agreement, veto-rights]
-related: [design-special-committee-process, design-decision-rights-framework, design-corporate-governance-structure]
+related: [design-special-committee-process, design-decision-rights-framework, design-corporate-governance-structure, design-joint-development-agreement]
 ---
 
 # Design Joint Venture Governance Agreement

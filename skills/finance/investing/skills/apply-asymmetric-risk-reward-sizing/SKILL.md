@@ -3,7 +3,7 @@ name: apply-asymmetric-risk-reward-sizing
 description: Use when sizing a trading or investment position — requiring a specific minimum ratio of potential reward to defined risk (e.g., risking one dollar to make five) before entering, and cutting the position quickly if the predefined risk level is reached, prioritizing defense over being right on every position.
 source: Paul Tudor Jones, founder of Tudor Investment Corporation; documented risk-management approach and public statements on asymmetric risk-reward trading discipline
 tags: [finance, investing, risk-management, position-sizing, asymmetric-returns, tudor-jones]
-related: [apply-downside-protection-principle, apply-leverage-avoidance, calculate-risk-adjusted-return]
+related: [apply-downside-protection-principle, apply-leverage-avoidance, calculate-risk-adjusted-return, apply-barbell-strategy]
 ---
 
 # Apply Asymmetric Risk-Reward Sizing

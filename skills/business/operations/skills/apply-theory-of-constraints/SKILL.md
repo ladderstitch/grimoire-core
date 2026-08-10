@@ -3,7 +3,7 @@ name: apply-theory-of-constraints
 description: Use when a system's overall output is capped by one bottleneck resource — a production line, a dev/release pipeline, a service queue, a hiring funnel — and local optimizations elsewhere aren't moving system-wide throughput.
 source: Eliyahu M. Goldratt & Jeff Cox, "The Goal" (1984); Goldratt, "It's Not Luck" (1994); Theory of Constraints Institute; APICS/ASCM curriculum
 tags: [bottleneck, throughput, constraint-management, lean, operations, process-improvement, capacity-planning, systems-thinking]
-related: [apply-pdca, apply-fishbone-diagram, audit-process-efficiency]
+related: [apply-pdca, apply-fishbone-diagram, audit-process-efficiency, apply-zero-based-budgeting]
 ---
 
 # Apply Theory of Constraints

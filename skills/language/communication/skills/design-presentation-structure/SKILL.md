@@ -3,6 +3,7 @@ name: design-presentation-structure
 description: Use when planning a persuasive presentation, pitch, or talk — designing the argument architecture, narrative arc, and evidence sequencing to move a specific audience from their current position toward the desired outcome.
 source: Reynolds "Presentation Zen" 2nd ed. (2011); Duarte "Resonate" (2010); Minto "The Pyramid Principle" (1987); TED "The Official TED Guide to Public Speaking" (2016)
 tags: [presentation, public-speaking, persuasion, communication, structure, storytelling]
+related: [run-public-speaking-practice-drill]
 ---
 
 # Design Presentation Structure

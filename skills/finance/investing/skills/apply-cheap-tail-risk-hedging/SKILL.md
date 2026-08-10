@@ -3,7 +3,7 @@ name: apply-cheap-tail-risk-hedging
 description: Use when a portfolio faces a low-probability but potentially catastrophic risk — buying asymmetric, deeply out-of-the-money protection (credit default swaps, far-out put options) while it's cheap because the market is complacent, so a small, defined cost caps portfolio damage if the tail risk materializes and can itself produce an outsized return.
 source: Bill Ackman, Pershing Square Capital Management founder; documented 2020 tail-risk credit hedge (approximately $27 million premium returning approximately $2.6 billion during the COVID-19 market crash)
 tags: [finance, investing, tail-risk, hedging, asymmetric-bets, portfolio-insurance, ackman]
-related: [apply-asymmetric-risk-reward-sizing, apply-downside-protection-principle, design-risk-parity-portfolio]
+related: [apply-asymmetric-risk-reward-sizing, apply-downside-protection-principle, design-risk-parity-portfolio, apply-barbell-strategy]
 ---
 
 # Apply Cheap Tail-Risk Hedging

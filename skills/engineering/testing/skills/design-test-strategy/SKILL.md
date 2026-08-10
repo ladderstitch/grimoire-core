@@ -4,6 +4,7 @@ description: Use when starting a new project, onboarding a codebase, auditing te
 source: Mike Cohn (Succeeding with Agile, 2009), Martin Fowler (martinfowler.com/bliki/TestPyramid), Google Testing Blog
 tags: [test-pyramid, test-strategy, coverage, integration-testing, e2e, developer, qa]
 verified: true
+related: [apply-risk-based-qa-scaling]
 ---
 
 # Design Test Strategy

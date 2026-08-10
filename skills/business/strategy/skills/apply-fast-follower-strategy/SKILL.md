@@ -3,7 +3,7 @@ name: apply-fast-follower-strategy
 description: Use when deciding whether to pioneer a new product category or market first, or deliberately let competitors validate it before entering with superior execution — per Duan Yongping's 敢为天下后 ("dare to follow, not pioneer") principle.
 source: Duan Yongping (段永平), compiled forum writings and interviews (大道无形我有型 forum handle); BBK Electronics/OPPO/vivo strategic history as a documented case of deliberate fast-follower positioning across multiple consumer-electronics brands
 tags: [business-strategy, fast-follower, market-entry, competitive-timing, duan-yongping]
-related: [apply-competitive-patience, apply-market-creation, design-go-to-market]
+related: [apply-competitive-patience, apply-market-creation, design-go-to-market, apply-diffusion-of-innovations]
 ---
 
 # Apply Fast-Follower Strategy

@@ -3,7 +3,7 @@ name: design-risk-parity-portfolio
 description: Use when constructing a portfolio intended to perform reasonably across different economic environments — allocating by balanced risk contribution across asset classes suited to growth-up, growth-down, inflation-up, and inflation-down regimes, rather than by capital allocation alone or a single static stock-bond split.
 source: Ray Dalio, "Principles" (2017) and Bridgewater Associates' published "All Weather" portfolio methodology
 tags: [finance, investing, risk-parity, all-weather-portfolio, asset-allocation, dalio]
-related: [design-portfolio-allocation, design-defensive-stock-bond-range, design-glide-path-allocation]
+related: [design-portfolio-allocation, design-defensive-stock-bond-range, design-glide-path-allocation, apply-barbell-strategy]
 ---
 
 # Design Risk Parity Portfolio

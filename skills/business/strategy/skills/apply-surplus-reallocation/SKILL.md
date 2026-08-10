@@ -4,6 +4,7 @@ description: Use when managing a portfolio of initiatives, products, teams, or i
 source: "道德经 第七十七章 (Laozi, ~6th–4th century BC) — 天之道，损有余而补不足; BCG matrix portfolio theory (Bruce Henderson, 1970) — cash cows fund stars; Toyota heijunka 平準化 production leveling (Toyota Production System); Amazon/Google internal capital allocation (documented in shareholder letters); portfolio rebalancing theory (Markowitz 1952); Kelly criterion (John Kelly 1956)"
 tags: [strategy, portfolio-management, resource-allocation, capital-allocation, organizational-design]
 verified: true
+related: [apply-structural-power-dilution]
 ---
 
 # Apply Surplus Reallocation

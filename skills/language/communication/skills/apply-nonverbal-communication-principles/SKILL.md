@@ -3,6 +3,7 @@ name: apply-nonverbal-communication-principles
 description: Use when preparing for high-stakes in-person communication — applying nonverbal principles of eye contact, posture, gesture, and spatial awareness to reinforce message delivery, build credibility, and create rapport with the audience or individual.
 source: Mehrabian "Silent Messages" (1971); Ekman "Emotions Revealed" (2003); Carnegie "How to Win Friends and Influence People" (1936); Goman "The Silent Language of Leaders" (2011)
 tags: [communication, nonverbal, body-language, rapport, presentation, leadership]
+related: [run-public-speaking-practice-drill]
 ---
 
 # Apply Nonverbal Communication Principles

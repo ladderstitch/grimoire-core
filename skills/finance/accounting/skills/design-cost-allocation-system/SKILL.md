@@ -3,6 +3,7 @@ name: design-cost-allocation-system
 description: Use when assigning overhead or shared costs to products, services, departments, or customers — e.g., "how do I allocate overhead?", "activity-based costing vs. traditional?", "which products are actually profitable?", "cost per customer segment?"
 source: Kaplan & Cooper "Cost and Effect" (1998, activity-based costing); CIMA management accounting standards; FASB overhead allocation guidance; Harvard Business School case studies on ABC implementation
 tags: [finance, accounting, cost-allocation, activity-based-costing, overhead, management-accounting, profitability]
+related: [apply-zero-based-budgeting]
 verified: true
 ---
 
