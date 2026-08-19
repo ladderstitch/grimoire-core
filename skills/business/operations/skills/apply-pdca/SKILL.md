@@ -2,6 +2,7 @@
 name: apply-pdca
 description: Use when implementing a process improvement, resolving a recurring operational problem, or running a controlled experiment where you need to learn and standardize before scaling.
 source: W. Edwards Deming, "Out of the Crisis" (1986); Walter Shewhart (originator, 1939); ISO 9001:2015 §10; Toyota Production System Kaizen practice
+related: [apply-insight-synthesis, apply-fidelity-before-adaptation, apply-5s-methodology, apply-statistical-process-control]
 tags: [continuous-improvement, operations, quality, process, lean, kaizen, problem-solving, experimentation]
 verified: true
 ---

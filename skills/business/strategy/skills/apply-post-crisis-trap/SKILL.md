@@ -3,6 +3,7 @@ name: apply-post-crisis-trap
 description: Use when you are a crisis contributor whose exceptional capability made you indispensable during an emergency — to recognise that the same capability which made you irreplaceable during the crisis becomes a structural threat to the principal once the crisis resolves, and to navigate the transition before the principal acts rather than after
 source: 飞鸟尽，良弓藏；狡兔死，走狗烹 (Fēi niǎo jìn, liáng gōng cáng; jiǎo tù sǐ, zǒu gǒu pēng) "When birds are gone, the good bow is stored; when the clever hare dies, the hound is cooked" — Fan Li (范蠡) warning to Wen Zhong (~473 BC); Liu Bang eliminating Han Xin (~196 BC); Sima Qian "Records of the Grand Historian" 史记 "Huaiyin Hou Liezhuan" 淮阴侯列传 + "Yue Wang Goujian Shijia" (~94 BC); Hirschman "Exit, Voice, and Loyalty" (1970); principal-agent theory
 tags: [career, post-crisis, capability-trap, fan-li, han-xin, warring-states, principal-agent, transition]
+related: [apply-conquest-to-governance-shift]
 verified: true
 ---
 

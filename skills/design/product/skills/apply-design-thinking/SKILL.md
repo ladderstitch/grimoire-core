@@ -3,6 +3,7 @@ name: apply-design-thinking
 description: Use when solving a complex, human-centered problem where the right solution is unknown — to move through structured phases of deep user empathy, problem reframing, divergent ideation, and rapid prototype testing before committing to a solution.
 source: 'IDEO, "The Field Guide to Human-Centered Design" (2015); Hasso Plattner Institute of Design at Stanford (d.school), "An Introduction to Design Thinking Process Guide" (2010); Brown, "Design Thinking", Harvard Business Review (2008); Cross, "Design Thinking: Understanding How Designers Think and Work", Berg (2011)'
 tags: [design-thinking, human-centered-design, ideation, prototyping, empathy, problem-framing, innovation]
+related: [apply-problem-reframing]
 ---
 
 # Apply Design Thinking

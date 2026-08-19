@@ -3,7 +3,7 @@ name: audit-systemic-credit-bubble-risk
 description: Use when evaluating whether an entire asset class or credit market is experiencing a systemic mispricing — verifying the underlying loan/asset quality directly rather than trusting credit ratings or market consensus, since ratings and consensus can be structurally wrong across an entire market simultaneously.
 source: John Paulson, Paulson & Co.; documented pre-2007 research and positioning against the U.S. subprime mortgage market
 tags: [finance, investing, systemic-risk, credit-analysis, bubble-detection, paulson]
-related: [apply-forensic-accounting-short-thesis, apply-lollapalooza-effect-detection, audit-balance-sheet-debt-risk]
+related: [apply-forensic-accounting-short-thesis, apply-lollapalooza-effect-detection, audit-balance-sheet-debt-risk, apply-this-time-is-different-skepticism, apply-poison-cure-diagnostic]
 ---
 
 # Audit Systemic Credit Bubble Risk

@@ -3,7 +3,7 @@ name: apply-risk-based-qa-scaling
 description: Use when deciding how much additional QA effort a specific code change warrants — route the decision through the change's actual risk profile (does it touch money, authentication, personal data, or concurrency?) to select which additional QA layers apply, rather than applying either a uniform minimum check to every change or an equally exhaustive review to changes with very different risk levels.
 source: Risk-based test-effort allocation as documented in ISO/IEC/IEEE 29119 software testing standards and in risk-based testing practice broadly (e.g., Gerrard & Thompson "Risk-Based E-Business Testing"); the underlying principle — concentrate scarce QA effort where the cost of a defect is highest — is standard in software quality assurance and safety-critical engineering practice
 tags: [risk-based-testing, qa-strategy, test-planning, code-review, engineering-process]
-related: [design-test-strategy, design-load-test, design-contract-testing, run-chaos-engineering, design-security-logging, apply-property-based-testing, audit-test-coverage]
+related: [design-test-strategy, design-load-test, design-contract-testing, run-chaos-engineering, design-security-logging, apply-property-based-testing, audit-test-coverage, apply-verification-volume-scaling]
 ---
 
 # Apply Risk-Based QA Scaling

@@ -3,6 +3,7 @@ name: apply-early-intervention
 description: Use when you detect early warning signals — technical debt accumulating, customer relationship cooling, team friction forming, process degrading — to intervene while the problem is still small and cheap, because intervention cost increases nonlinearly with delay
 source: "道德经 第六十三章 (Laozi, ~6th–4th century BC) — 图难于其易，为大于其细；天下难事，必作于易；天下大事，必作于细; IBM Systems Sciences Institute defect cost research (1981) — defect cost in production is 100× defect cost in requirements; DevSecOps shift-left principle; Toyota jidoka (自働化) — stop-and-fix-immediately; Deming PDCA cycle; Total Productive Maintenance (TPM)"
 tags: [strategy, risk-management, technical-debt, preventive-maintenance, early-warning]
+related: [apply-poison-cure-diagnostic]
 verified: true
 ---
 

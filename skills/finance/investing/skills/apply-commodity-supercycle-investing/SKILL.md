@@ -3,7 +3,7 @@ name: apply-commodity-supercycle-investing
 description: Use when evaluating commodities as an asset class — assessing where a specific commodity sits within a multi-decade supply-and-demand supercycle, since commodity prices move through long structural cycles distinct from equity market cycles and require a different, longer-horizon analytical framework.
 source: Jim Rogers, co-founder of the Quantum Fund; documented commodities investing approach and public writings on long-term commodity cycles
 tags: [finance, investing, commodities, supercycle, macro-investing, rogers]
-related: [apply-global-value-investing, audit-emerging-market-risk, design-portfolio-allocation]
+related: [apply-global-value-investing, audit-emerging-market-risk, design-portfolio-allocation, apply-this-time-is-different-skepticism]
 ---
 
 # Apply Commodity Supercycle Investing

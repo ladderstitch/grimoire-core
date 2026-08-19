@@ -3,6 +3,7 @@ name: apply-honor-prior-commitment
 description: Use when you have made a prior public commitment that has become costly to honour — to honour it visibly and completely, using the demonstrated trustworthiness to build moral authority with your own organisation and observing third parties, because the reputation for keeping commitments under cost cannot be acquired any other way and is worth more than the short-term gain from breaking the commitment
 source: 退避三舍 (Tuì bì sān shě) "Retreat three days' march" — Duke Wen of Jin (晋文公 Chong'er) at Battle of Chengpu (632 BC); Zuo Zhuan 左传 "Chengpu Zhi Zhan" 城濮之战 (~4th century BC); Kreps "Corporate Culture and Economic Theory" (1990) — reputation and repeated games; Cialdini "Influence" (1984) — commitment and consistency; Axelrod "The Evolution of Cooperation" (1984) — reciprocity and reputation
 tags: [commitment, reputation, moral-authority, trust, zuo-zhuan, spring-autumn, honoring-commitment, reciprocity]
+related: [apply-differentiated-reciprocity]
 verified: true
 ---
 

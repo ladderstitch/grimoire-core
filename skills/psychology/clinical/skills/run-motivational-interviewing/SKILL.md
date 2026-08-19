@@ -3,7 +3,7 @@ name: run-motivational-interviewing
 description: Use when someone is ambivalent about change, resisting intervention, or when direct advice and persuasion have failed to produce movement
 source: 'Miller & Rollnick "Motivational Interviewing: Helping People Change" (2013, 3rd ed.); MINT; Hettema et al. meta-analysis JCCP (2005)'
 tags: [motivational-interviewing, ambivalence, behavior-change, counseling, addiction]
-related: [apply-graduated-entry-point-technique]
+related: [apply-graduated-entry-point-technique, apply-solicited-advice-discipline]
 verified: true
 ---
 

@@ -3,7 +3,7 @@ name: apply-goodharts-law
 description: Use when choosing what to measure for a KPI, OKR, ML training objective, or SLO — or when a metric that once tracked real performance keeps rising while the underlying outcome doesn't — to diagnose or prevent the specific mechanism by which a measure degrades once people optimize directly against it.
 source: 'Charles Goodhart, Reserve Bank of Australia lecture on UK monetary policy (1975) — original formulation; Marilyn Strathern "Improving ratings: audit in the British University system", Social Anthropology (1997) — generalized the law to "When a measure becomes a target, it ceases to be a good measure"; Donald T. Campbell "Assessing the Impact of Planned Social Change" (1976) — independently derived "Campbell''s Law" in social-science evaluation; John Doerr "Measure What Matters" (2018) — OKR guidance against tying objectives to compensation for this reason'
 tags: [metrics, incentive-design, kpi, measurement, systems-thinking, gaming, unintended-consequences]
-related: [design-incentive-systems, design-feedback-loops, write-okrs, design-kpi-dashboard]
+related: [design-incentive-systems, design-feedback-loops, write-okrs, design-kpi-dashboard, apply-poison-cure-diagnostic, apply-earnings-myopia-defense, apply-statistical-process-control]
 ---
 
 # Apply Goodhart's Law

@@ -3,6 +3,7 @@ name: apply-eat-the-frog
 description: Use when planning your workday or a work session — to identify the single most important or most dreaded task and complete it before anything else, eliminating the procrastination tax.
 source: 'Tracy, Brian. "Eat That Frog! 21 Great Ways to Stop Procrastinating and Get More Done in Less Time" (2001); Mark Twain attributed quote: "eat a live frog first thing in the morning"'
 tags: [procrastination, prioritization, time-management, focus, daily-planning]
+related: [apply-managerial-leverage]
 verified: true
 ---
 

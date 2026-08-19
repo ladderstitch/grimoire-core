@@ -3,7 +3,7 @@ name: apply-kostolany-egg-theory
 description: Use when judging where a market cycle currently stands — classifying the current phase as correction, adjustment (accumulation or distribution), or trend (exaggeration) using Kostolany's egg-shaped cycle model, to judge whether a move is likely to continue, pause, or reverse.
 source: André Kostolany, "Die Kunst über Geld nachzudenken" and related writings — the "egg theory" (Ei-Theorie) market cycle model
 tags: [finance, investing, market-cycles, kostolany, cycle-phase-analysis, macro]
-related: [apply-lollapalooza-effect-detection, apply-contrarian-sentiment-timing, apply-reflexivity-theory]
+related: [apply-lollapalooza-effect-detection, apply-contrarian-sentiment-timing, apply-reflexivity-theory, apply-this-time-is-different-skepticism]
 ---
 
 # Apply Kostolany Egg Theory

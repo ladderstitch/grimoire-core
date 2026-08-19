@@ -3,6 +3,7 @@ name: apply-inversion
 description: Use when solving a hard problem, stress-testing a plan, or identifying risks by reasoning backwards from failure instead of forwards from goals.
 source: Carl Jacobi (mathematician, 1804–1851); Charlie Munger, "Poor Charlie's Almanack" (2005); widely taught at Berkshire Hathaway and in mental models curricula
 tags: [mental-models, problem-solving, risk-analysis, decision-making, first-principles]
+related: [apply-problem-reframing]
 verified: true
 ---
 

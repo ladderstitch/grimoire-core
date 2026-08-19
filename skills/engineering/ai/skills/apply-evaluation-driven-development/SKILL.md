@@ -3,7 +3,7 @@ name: apply-evaluation-driven-development
 description: Use when building or iterating on an LLM feature, prompt, or agentic system — to measure improvement objectively rather than speculating about what the model needs.
 source: Anthropic, "Building effective agents" (2024); OpenAI Evals framework documentation; Liang et al., "HELM" Stanford CRFM (2022); Anthropic, Claude agent skills best practices (2024)
 tags: [evals, llm, ai-engineering, iteration, baseline, regression, developer, measurement]
-related: [write-eval-suite, design-prompt-template]
+related: [write-eval-suite, design-prompt-template, apply-deterministic-verifier-chain]
 ---
 
 # Apply Evaluation-Driven Development

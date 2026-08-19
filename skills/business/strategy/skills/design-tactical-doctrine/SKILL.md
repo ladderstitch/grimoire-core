@@ -2,6 +2,7 @@
 name: design-tactical-doctrine
 description: Use when your organisation's performance depends on the judgment of a few exceptional individuals — to encode that expert judgment into systematic, teachable doctrine that average practitioners can execute, decoupling performance from individual talent and scaling excellence across the organisation
 source: 八阵图 (Bā zhèn tú) "Eight Formation Arrays" — Zhuge Liang's systematic battle formation doctrine (~220–234 AD); Chen Shou "Records of the Three Kingdoms" 三国志 "Zhuge Liang Zhuan" (280–290 AD); Du Fu poem "八阵图" (~766 AD); McDonald's "Operations and Training Manual" (1958 — Ray Kroc); Goldratt "The Goal" (1984) — throughput and constraint; Rackham "SPIN Selling" (1988) — sales doctrine from research
+related: [apply-fidelity-before-adaptation]
 tags: [tactical-doctrine, playbook, force-multiplier, scaling, systematisation, knowledge-management, three-kingdoms, zhuge-liang]
 verified: true
 ---

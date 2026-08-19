@@ -3,7 +3,7 @@ name: apply-monte-carlo-risk-simulation
 description: Use when a project's cost or schedule depends on multiple uncertain estimates — running a Monte Carlo simulation across many randomized combinations of those estimates to produce a probability distribution of likely outcomes, rather than relying on a single-point estimate that hides how much uncertainty actually surrounds it.
 source: Project Management Institute (PMI), PMBOK Guide, quantitative risk analysis techniques; AACE International Recommended Practices for Monte Carlo schedule and cost risk analysis
 tags: [engineering, project-management, monte-carlo-simulation, quantitative-risk, expected-monetary-value, schedule-risk]
-related: [design-risk-register, design-portfolio-stress-test, apply-fmea-analysis]
+related: [design-risk-register, design-portfolio-stress-test, apply-fmea-analysis, apply-reference-class-forecasting]
 ---
 
 # Apply Monte Carlo Risk Simulation

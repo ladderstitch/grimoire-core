@@ -3,7 +3,7 @@ name: apply-opportunity-and-sponsorship-strategy
 description: Use when someone wants to advance their career or capture opportunities by staying alert to situational openings and deliberately cultivating relationships with sponsors — people who actively advocate, not just mentors who advise. E.g. "I have a mentor but I'm not getting considered for big things", "how do I get noticed", "everyone else hears about openings before I do"
 source: Folk saying 识天物，傍贵人 (provenance unverified — presented as a mnemonic frame, not an authoritative citation); Kirzner, I. (1973) "Competition and Entrepreneurship" — entrepreneurial alertness; Granovetter, M. (1973) "The Strength of Weak Ties", American Journal of Sociology; Burt, R. (1992) "Structural Holes"; Hewlett, S.A. et al. (2010/2013) "The Sponsor Effect"/"Forget a Mentor, Find a Sponsor", Harvard Business Review
 tags: [career-advancement, sponsorship, opportunity-recognition, networking, social-capital, mentorship, alertness]
-related: [apply-upward-influence, apply-non-transactional-giving, apply-power-mapping, run-career-conversation]
+related: [apply-upward-influence, apply-non-transactional-giving, apply-power-mapping, run-career-conversation, apply-visible-note-taking-elicitation, design-relationship-tiering-system, apply-reverse-mentoring-strategy]
 ---
 
 # Apply Opportunity and Sponsorship Strategy

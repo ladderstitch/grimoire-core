@@ -3,6 +3,7 @@ name: plan-manager-transition
 description: Use when someone has just become a people manager for the first time — or when an experienced manager takes over a new team — to navigate the first 90 days in a way that builds trust, establishes authority through relationship rather than position, and avoids the most common new-manager failure modes.
 source: Hill "Becoming a Manager" (HBS Press, 2nd ed. 2003) — based on 19 managers' first year; Watkins "The First 90 Days" (HBS Press, updated ed. 2013); Bock "Work Rules!" (Twelve, 2015) — Google's research on new manager effectiveness
 tags: [new-manager, manager-transition, first-90-days, leadership, onboarding, authority, team-trust, manager-effectiveness]
+related: [apply-conquest-to-governance-shift]
 ---
 
 # Plan Manager Transition

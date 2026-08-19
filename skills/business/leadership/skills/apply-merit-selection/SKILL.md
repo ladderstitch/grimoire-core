@@ -3,6 +3,7 @@ name: apply-merit-selection
 description: Use when making any talent selection, promotion, or recommendation decision — to test your evaluation against the reversed-relationship check, because evaluator relationship bias systematically corrupts talent decisions even in well-intentioned evaluators, and merit discipline must be applied at the moment of judgment, not only in structural process design
 source: "左传 襄公三年 (~570 BC) — 祁奚举贤: Qi Xi recommended his personal enemy for office and his own son for office, both on merit alone, when asked for the most capable person ('I was asked for the most capable, not for my preferences'); Cecilia Rouse & Claudia Goldin 'Orchestrating Impartiality' (2000, American Economic Review) — blind auditions increased probability of women advancing past preliminary rounds by ~50%; NFL Rooney Rule (2003, Diversity Advisory Committee) — requiring at least one minority candidate interview for head coach positions; Iris Bohnet 'What Works: Gender Equality by Design' (2016, Harvard Kennedy School); SHRM structured interview standards; EEOC uniform guidelines on employee selection procedures"
 tags: [leadership, hiring, talent, bias, selection, hr, fairness]
+related: [apply-narrative-memo-discipline, apply-peter-principle-check, apply-hay-job-evaluation, apply-raci-matrix]
 verified: true
 ---
 
