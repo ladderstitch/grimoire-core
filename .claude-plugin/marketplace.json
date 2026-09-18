@@ -12,7 +12,7 @@
       "name": "grimoire",
       "source": {
         "source": "github",
-        "repo": "jeffreytse/grimoire-core"
+        "repo": "ladderstitch/grimoire-core"
       },
       "description": "All grimoire skills across all domains",
       "skills": [
@@ -162,7 +162,7 @@
       "name": "grimoire-meta",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/meta"
       },
       "description": "Grimoire meta-skills: search, review, and contribute to the skill library"
@@ -171,7 +171,7 @@
       "name": "grimoire-engineering",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/engineering"
       },
       "description": "All engineering skills (17 sub-domains)"
@@ -180,7 +180,7 @@
       "name": "grimoire-writing",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/writing"
       },
       "description": "Writing: creative writing, copywriting, storytelling, content, editing"
@@ -189,7 +189,7 @@
       "name": "grimoire-design",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/design"
       },
       "description": "Design: graphic design, UI/UX, visual communication, branding, typography"
@@ -198,7 +198,7 @@
       "name": "grimoire-business",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/business"
       },
       "description": "Business: strategy, operations, entrepreneurship, leadership, management"
@@ -207,7 +207,7 @@
       "name": "grimoire-science",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/science"
       },
       "description": "Science: research methodology, experiments, data analysis, scientific writing"
@@ -216,7 +216,7 @@
       "name": "grimoire-marketing",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/marketing"
       },
       "description": "Marketing: growth, SEO, content strategy, brand, social media, analytics"
@@ -225,7 +225,7 @@
       "name": "grimoire-health",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/health"
       },
       "description": "Health: fitness, nutrition, mental health, wellness, sleep, habit formation"
@@ -234,7 +234,7 @@
       "name": "grimoire-finance",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/finance"
       },
       "description": "Finance: investing, personal finance, accounting, financial modeling"
@@ -243,7 +243,7 @@
       "name": "grimoire-education",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/education"
       },
       "description": "Education: teaching, curriculum design, learning strategies, pedagogy"
@@ -252,7 +252,7 @@
       "name": "grimoire-film",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/film"
       },
       "description": "Film: cinematography, video production, direction, editing, screenwriting"
@@ -261,7 +261,7 @@
       "name": "grimoire-law",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/law"
       },
       "description": "Law: legal literacy, contracts, IP, compliance, regulatory, dispute resolution"
@@ -270,7 +270,7 @@
       "name": "grimoire-cooking",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/cooking"
       },
       "description": "Cooking: techniques, recipes, flavor pairing, nutrition, gastronomy"
@@ -279,7 +279,7 @@
       "name": "grimoire-language",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/language"
       },
       "description": "Language: language learning, linguistics, translation, fluency"
@@ -288,7 +288,7 @@
       "name": "grimoire-art",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/art"
       },
       "description": "Art: painting, drawing, illustration, color theory, digital art"
@@ -297,7 +297,7 @@
       "name": "grimoire-sports",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/sports"
       },
       "description": "Sports: coaching, training methodology, athletic performance, tactics"
@@ -306,7 +306,7 @@
       "name": "grimoire-productivity",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/productivity"
       },
       "description": "Productivity: time management, personal effectiveness, goal setting, habits"
@@ -315,7 +315,7 @@
       "name": "grimoire-photography",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/photography"
       },
       "description": "Photography: composition, exposure, lighting, editing"
@@ -324,7 +324,7 @@
       "name": "grimoire-music",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/music"
       },
       "description": "Music: mixing, production, composition, recording"
@@ -333,7 +333,7 @@
       "name": "grimoire-travel",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/travel"
       },
       "description": "Travel: trip planning, itineraries, visa requirements, cultural etiquette, budgeting"
@@ -342,7 +342,7 @@
       "name": "grimoire-psychology",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/psychology"
       },
       "description": "Psychology: behavioral science, cognitive biases, CBT, communication patterns, mental models"
@@ -351,7 +351,7 @@
       "name": "grimoire-home",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/home"
       },
       "description": "Home: home improvement, interior design, gardening, DIY repairs, organization"
@@ -360,7 +360,7 @@
       "name": "grimoire-environment",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/environment"
       },
       "description": "Environment: sustainability, ecology, climate science, renewable energy, conservation"
@@ -369,7 +369,7 @@
       "name": "grimoire-pets",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/pets"
       },
       "description": "Pets: pet care, training, behavior, nutrition, veterinary basics, breed guides"
@@ -378,7 +378,7 @@
       "name": "grimoire-fashion",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/fashion"
       },
       "description": "Fashion: personal styling, wardrobe building, clothing design, color coordination, trend analysis"
@@ -387,7 +387,7 @@
       "name": "grimoire-parenting",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/parenting"
       },
       "description": "Parenting: child development, activities, discipline strategies, school prep, family routines"
@@ -396,7 +396,7 @@
       "name": "grimoire-automotive",
       "source": {
         "source": "git-subdir",
-        "url": "jeffreytse/grimoire-core",
+        "url": "ladderstitch/grimoire-core",
         "path": "skills/automotive"
       },
       "description": "Automotive: car maintenance, buying guides, troubleshooting, modifications, EV, road trips"
